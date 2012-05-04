@@ -1,77 +1,76 @@
+html, body, .yelling, .rad{height: 100%;}
+
+.yelling p,
+.rad h3,
+.dude,
+.rad h3,
+.rad .linkz a strong
+{font-family: 'Bowlby One SC', Helvetica, sans-serif;}
+
 .loading {background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  width: 100%; height: 100%; position: absolute; top:0; left: 0; z-index: 999; font-size: 50px;}
 .loading  p{font-size: 36px; padding: 50px; color: #50736c;}
 
 .loading .spinner {position: absolute; top:50%; left: 50%; margin: -15px 0 0 -25px; width: 50px; height: 30px; display: block; z-index: 9999; background: url(../images/pacman.gif) no-repeat top; padding-top: 30px; font-size: 12px; color: #ff0;}
 
-body{background: #ba0707 url(../images/texture.png); box-shadow: 0 0 200px rgba(0,0,0,0.3) inset;}
+body{background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 
 a:focus{outline: none;}
-
-.yelling p{font-size: 120px; margin: 0 auto; line-height: 120px; text-align: center;  color: #fff; text-shadow: 0 2px 1px rgba(115, 0, 0, 0.5);  letter-spacing: -2px; text-transform: uppercase;  vertical-align: middle; font-family: VeneerThree; position: absolute; top:50%; left: auto; width: 100%; padding: 0; margin-top: -140px;  font-family: VeneerThree;}
-.yelling em{font-style: normal; opacity: 1;}
+.yelling{background: #ba0707 url(../images/texture.png); box-shadow: 0 0 200px rgba(0,0,0,0.5) inset}
+.yelling p{font-size: 120px; margin: 0 auto; line-height: 120px; text-align: center;  color: #fff; text-shadow: 0 2px 1px rgba(115, 0, 0, 0.5);  letter-spacing: -2px; text-transform: uppercase;  vertical-align: middle; position: absolute; top:50%; left: auto; width: 100%; padding: 0; margin-top: -140px;  -moz-animation: 1s ease 0s normal none 1 bounce;}
+.yelling em{font-size: 22px; opacity: 0.7; display: block; font-weight: normal; letter-spacing: 1px;}
 .yelling strong{position: relative;}
-.yelling strong:after{content:''; display: block;width: 100%; height: 20px; position: absolute; top:100%; margin-top: -8px; left: 0; background: #fff; box-shadow: 0 2px 1px rgba(115, 0, 0, 0.5); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg);}
+.yelling strong:after{content:''; display: block;width: 100%; height: 20px; position: absolute; top:100%; margin-top: -20px; left: 0; background: #fff; box-shadow: 0 2px 1px rgba(115, 0, 0, 0.5); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg);}
 
-.dude{background: #111 url(../images/dark_texture.jpg); border-radius: 9999px; position: absolute; top: 100%; left: 50%; margin: -60px 0 0 -100px; width: 200px; height: 200px; font-size: 22px; color: #fff; text-decoration: none; text-align: center; line-height: 30px; font-weight: 900; text-transform: uppercase; padding: 20px 0 0; opacity: 0.7; font-family: 'Exo', 'Helvetica Neue', Helvetica, sans-serif; box-shadow: inset 0 2px 1px rgba(0,0,0,.8); transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out;}
+
+.hide_stuff{position: absolute; top:100%; left: 0; width: 100%; overflow: hidden; height: 80px; margin-top: -80px;}
+.dude{background: rgba(0,0,0,0.7); border-radius: 9999px; position: absolute; top: 100%; left: 50%; margin: -60px 0 0 -100px; width: 200px; height: 200px; font-size: 22px; color: #fff; text-decoration: none; text-align: center; line-height: 30px; font-weight: 900; text-transform: uppercase; padding: 20px 0 0; opacity: 0.6; box-shadow: inset 0 2px 1px rgba(0,0,0,.8); transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out;}
 .dude em{display: block; width: 100%; text-align: center; top:18px; left: 0; font-style: italic; position: absolute;}
 .dude:hover{color: #fff; text-decoration: none; opacity: 1;}
 
 
 /* RAD */
-.rad{background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; position: relative; overflow: hidden;}
-.rad .dude{background:#ba0707 url(../images/texture.png); color: #000; top:0; margin-top: -130px; opacity: 1; width: 240px; margin-left: -120px;}
+.rad{position: relative;}
+.rad .hide_stuff{top:0; margin: 0;}
+.rad .dude{background:rgba(0,0,0,0.4); color: #4e8679; top:0; margin-top: -160px; opacity: 1; width: 240px; margin-left: -120px;}
 .rad .dude em{ top:174px;}
+.rad .dude:hover{color: #fff;}
+
+
 
 .rad .container{padding-top: 100px;}
-.rad h3{color: #95d7be; opacity: 0.5; font-family: 'VeneerThree'; font-size: 60px; line-height: 80px; text-transform: uppercase; font-weight: normal; padding: 0 0 24px;  font-family: VeneerThree;}
+.rad h3{color: #95d7be; opacity: 0.5; font-size: 40px; line-height: 50px; text-transform: uppercase; font-weight: normal; padding: 0 0 48px;}
 .rad h3 em{font-style: normal;}
 .rad h3 em strong{font-weight: normal;}
 .rad h3 em cite{font-size: 24px; opacity: 0.3; letter-spacing: 1px; margin-left: 10px;}
 
-.rad p{color: #50736c; font-size: 16px; line-height: 24px; padding: 0 0 24px; }
+.rad p{color: #50736c; font-size: 16px; line-height: 24px;}
 
-.rad .linkz a{display: block; color: #50736c; opacity: 0.6; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; font-size: 18px; line-height: 24px; padding: 10px 10px 10px 30px; position: relative; border-radius: 3px; font-size: 24px; text-decoration: none;}
-.rad .linkz a strong{color: #8eaca6; text-transform: uppercase; font-family: 'VeneerThree-Italic', Helvetica; font-weight: normal; font-size: 32px; }
+.rad .linkz a{display: block; color: #50736c; opacity: 0.6; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; font-size: 18px; line-height: 24px; padding: 10px 10px 10px 30px; position: relative; border-radius: 3px; font-size: 18px; text-decoration: none;}
+.rad .linkz a strong{color: #8eaca6; text-transform: uppercase; font-weight: normal; font-size: 24px; margin-right: 10px}
 
 .rad .linkz a .caret{border-bottom-color: #fff; border-top-color: #fff;  -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); position: absolute; top:18px; left: 10px;}
 
 .rad .linkz a:hover,
 .rad .linkz a:hover strong{opacity: 1; color: #fff;}
-.rad .linkz a:hover{background: rgba(0,0,0,0.2);}
+.rad .linkz a:hover{background: rgba(0,0,0,0.1);}
 .rad .linkz a:hover .caret{border-width: 6px;}
 
 /* .rad .linkz a strong:before{} */
 
-
+.chat {padding: 20px 0 0;}
 .chat input,
-.chat label{display: inline-block; padding: 5px; margin: 0; color: #50736c; font-size: 18px;}
+.chat label{display: inline-block; padding: 5px; margin: 0; color: #50736c; font-size: 16px;}
 .chat label{width: 60px;}
 
+.chat p{clear: both;}
+
 .chat input{border:none; background: rgba(0,0,0,0.1)}
+.chat input:hover{background-color: rgba(0,0,0,0.15)}
 .chat input:focus{background: rgba(0,0,0,0.2); color: #fff;}
 
-@font-face {font-family: 'VeneerThree';src: url('../webfonts/22A42F_1_0.eot');src: url('../webfonts/22A42F_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_1_0.woff') format('woff'),url('../webfonts/22A42F_1_0.ttf') format('truetype');} 
-@font-face {font-family: 'VeneerThree-Italic';src: url('../webfonts/22A42F_0_0.eot');src: url('../webfonts/22A42F_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_0_0.woff') format('woff'),url('../webfonts/22A42F_0_0.ttf') format('truetype');}
 
-/*
-@font-face {font-family: 'VeneerTwo-Italic';src: url('../webfonts/22A42F_2_0.eot');src: url('../webfonts/22A42F_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_2_0.woff') format('woff'),url('../webfonts/22A42F_2_0.ttf') format('truetype');}  
 
-@font-face {font-family: 'VeneerTwo';src: url('../webfonts/22A42F_3_0.eot');src: url('../webfonts/22A42F_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_3_0.woff') format('woff'),url('../webfonts/22A42F_3_0.ttf') format('truetype');} 
-@font-face {font-family: 'Veneer-Italic';src: url('../webfonts/22A42F_4_0.eot');src: url('../webfonts/22A42F_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_4_0.woff') format('woff'),url('../webfonts/22A42F_4_0.ttf') format('truetype');} 
-@font-face {font-family: 'Veneer';src: url('../webfonts/22A42F_5_0.eot');src: url('../webfonts/22A42F_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_5_0.woff') format('woff'),url('../webfonts/22A42F_5_0.ttf') format('truetype');} 
-@font-face {font-family: 'VeneerExtras-Italic';src: url('../webfonts/22A42F_6_0.eot');src: url('../webfonts/22A42F_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_6_0.woff') format('woff'),url('../webfonts/22A42F_6_0.ttf') format('truetype');} 
-@font-face {font-family: 'VeneerExtras';src: url('../webfonts/22A42F_7_0.eot');src: url('../webfonts/22A42F_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/22A42F_7_0.woff') format('woff'),url('../webfonts/22A42F_7_0.ttf') format('truetype');}
 
-.VeneerThree-Italic { font-family: VeneerThree-Italic; font-weight: normal; font-style: normal;}
-.VeneerThree { font-family: VeneerThree; font-weight: normal; font-style: normal;}
-.VeneerTwo-Italic { font-family: VeneerTwo-Italic; font-weight: normal; font-style: normal;}
-.VeneerTwo { font-family: VeneerTwo; font-weight: normal; font-style: normal;}
-.Veneer-Italic { font-family: Veneer-Italic; font-weight: normal; font-style: normal;}
-.Veneer { font-family: Veneer; font-weight: normal; font-style: normal;}
-.VeneerExtras-Italic { font-family: VeneerExtras-Italic; font-weight: normal; font-style: normal;}
-.VeneerExtras { font-family: VeneerExtras; font-weight: normal; font-style: normal;}
-
-*/
 
 
 
@@ -80,16 +79,22 @@ a:focus{outline: none;}
 /* iphone */
 @media (max-width: 480px) {
 
-.yelling p {position: relative; margin: 0; top:auto; padding: 20px 0 0; width: auto;}
+.yelling p {position: relative; margin: 0; top:auto; padding: 40px; width: auto;}
 html body{padding: 0;}
 .rad{padding: 0 20px;}
+.rad .linkz a strong{font-size: 18px; display: block;}
+.rad h3{display: none;}
 }
 
 /* ipad */
 @media (max-width: 767px) {
 	
+	body{padding: 0 !important;}
+	.rad{padding: 0 20px 50px;}
 	.yelling p{font-size: 90px;}
-	.yelling p strong:after{height: 12px;}		
+	.yelling p strong:after{height: 12px;}	
+	.contactz{box-shadow: 0 0 50px inset rgba(0,0,0,0.5); padding: 20px; background: rgba(0,0,0,0.2); }	
+
 }
 
 /* ipad up */
@@ -100,18 +105,18 @@ html body{padding: 0;}
 
 /* up to big grid, smaller screen */
 @media (max-width: 979px) {
-
-	.yelling p{font-size: 90px;}
-	.yelling p strong:after{height: 15px;}
+	.rad h3 em cite{display: block;}
+	.yelling p{font-size: 60px;line-height: 100px;}
+	.yelling p strong:after{height: 15px; margin-top: -15px;}
 }
 
 /* big buggers */
 @media (min-width: 980px) {
-	.yelling p{font-size: 120px;}
+	.yelling p{font-size: 80px;}
 
 }
 
 /* hooj */
 @media (min-width: 1200px) {
-	.yelling p{font-size: 150px;}
+	.yelling p{font-size: 100px;}
 }
