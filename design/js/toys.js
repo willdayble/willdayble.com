@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$('.js_get_js').hide();
+
   /* fix up the height on browsers that are too big */
   $('.js_yelling').css('height', $(window).height());
   $(window).resize(function() {
@@ -70,7 +72,8 @@ $(document).ready(function(){
 	
 	}  
   
-  
+});
 
-  
+$(window).bind("load", function() { 
+	$('.js_loading').fadeOut();
 });

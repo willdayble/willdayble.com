@@ -1,3 +1,8 @@
+.loading {background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  width: 100%; height: 100%; position: absolute; top:0; left: 0; z-index: 999; font-size: 50px;}
+.loading  p{font-size: 36px; padding: 50px; color: #50736c;}
+
+.loading .spinner {position: absolute; top:50%; left: 50%; margin: -15px 0 0 -25px; width: 50px; height: 30px; display: block; z-index: 9999; background: url(../images/pacman.gif) no-repeat top; padding-top: 30px; font-size: 12px; color: #ff0;}
+
 body{background: #ba0707 url(../images/texture.png); box-shadow: 0 0 200px rgba(0,0,0,0.3) inset;}
 
 a:focus{outline: none;}
@@ -5,7 +10,7 @@ a:focus{outline: none;}
 .yelling p{font-size: 120px; margin: 0 auto; line-height: 120px; text-align: center;  color: #fff; text-shadow: 0 2px 1px rgba(115, 0, 0, 0.5);  letter-spacing: -2px; text-transform: uppercase;  vertical-align: middle; font-family: VeneerThree; position: absolute; top:50%; left: auto; width: 100%; padding: 0; margin-top: -140px;  font-family: VeneerThree;}
 .yelling em{font-style: normal; opacity: 1;}
 .yelling strong{position: relative;}
-.yelling strong:after{content:''; display: block;width: 100%; height: 20px; position: absolute; top:100%; margin-top: -10px; left: 0; background: #fff; box-shadow: 0 2px 1px rgba(115, 0, 0, 0.5); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg);}
+.yelling strong:after{content:''; display: block;width: 100%; height: 20px; position: absolute; top:100%; margin-top: -8px; left: 0; background: #fff; box-shadow: 0 2px 1px rgba(115, 0, 0, 0.5); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg);}
 
 .dude{background: #111 url(../images/dark_texture.jpg); border-radius: 9999px; position: absolute; top: 100%; left: 50%; margin: -60px 0 0 -100px; width: 200px; height: 200px; font-size: 22px; color: #fff; text-decoration: none; text-align: center; line-height: 30px; font-weight: 900; text-transform: uppercase; padding: 20px 0 0; opacity: 0.7; font-family: 'Exo', 'Helvetica Neue', Helvetica, sans-serif; box-shadow: inset 0 2px 1px rgba(0,0,0,.8); transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out;}
 .dude em{display: block; width: 100%; text-align: center; top:18px; left: 0; font-style: italic; position: absolute;}
@@ -13,7 +18,7 @@ a:focus{outline: none;}
 
 
 /* RAD */
-.rad{background: #172226 url(../images/dark_canvas.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; position: relative; overflow: hidden;}
+.rad{background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; position: relative; overflow: hidden;}
 .rad .dude{background:#ba0707 url(../images/texture.png); color: #000; top:0; margin-top: -130px; opacity: 1; width: 240px; margin-left: -120px;}
 .rad .dude em{ top:174px;}
 
@@ -83,7 +88,8 @@ html body{padding: 0;}
 /* ipad */
 @media (max-width: 767px) {
 	
-		.yelling p{font-size: 90px;}
+	.yelling p{font-size: 90px;}
+	.yelling p strong:after{height: 12px;}		
 }
 
 /* ipad up */
@@ -96,14 +102,16 @@ html body{padding: 0;}
 @media (max-width: 979px) {
 
 	.yelling p{font-size: 90px;}
+	.yelling p strong:after{height: 15px;}
 }
 
 /* big buggers */
 @media (min-width: 980px) {
 	.yelling p{font-size: 120px;}
+
 }
 
 /* hooj */
 @media (min-width: 1200px) {
-	.yelling p{font-size: 160px;}
+	.yelling p{font-size: 150px;}
 }
