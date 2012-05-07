@@ -30,22 +30,6 @@ $(document).ready(function(){
   
   var love = [
   	{
-  		person : '~ Victoria Taylor',
-  		quote : 'is charming.'
-  	},
-  	{
-  		person : '~ Victoria Taylor',
-  		quote : 'is disarming.'
-  	},  	
-  	{
-  		person : '~ Charlie Gleason',
-  		quote : 'never sleeps.'
-  	},
-  	{
-  		person : '~ Michael Wu',
-  		quote : 'has ADHD.'
-  	},
-  	{
   		person : '~ Kirsty Dayman',
   		quote : 'is batshit mental.'
   	},
@@ -61,6 +45,22 @@ $(document).ready(function(){
   		person : '~ Michelle Steigerwalt',
   		quote : 'vomits rainbows.'
   	},
+  	{
+  		person : '~ Victoria Taylor',
+  		quote : 'is charming.'
+  	},
+  	{
+  		person : '~ Victoria Taylor',
+  		quote : 'is disarming.'
+  	},  	
+  	{
+  		person : '~ Charlie Gleason',
+  		quote : 'never sleeps.'
+  	},
+  	{
+  		person : '~ Michael Wu',
+  		quote : 'has ADHD.'
+  	},  	
   	{
   		person : '~ Lisa Rime',
   		quote : 'lacks impulse control.'
