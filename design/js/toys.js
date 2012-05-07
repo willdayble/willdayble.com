@@ -31,46 +31,71 @@ $(document).ready(function(){
   var love = [
   	{
   		person : '~ Kirsty Dayman',
-  		quote : 'is batshit mental.'
+  		quote : ' is batshit mental'
   	},
   	{
   		person : '~ Ben Prendergast',
-  		quote : 'is inspired.'
+  		quote : ' is inspired'
   	},
   	{
   		person : '~ Effie Rose Pryer',
-  		quote : 'is involved.'
+  		quote : ' is involved'
+  	},
+  	{
+  		person : '~ Caz Pringle',
+  		quote : " is the people's poet"
   	},
   	{
   		person : '~ Michelle Steigerwalt',
-  		quote : 'vomits rainbows.'
+  		quote : ' vomits rainbows'
   	},
   	{
   		person : '~ Victoria Taylor',
-  		quote : 'is charming.'
+  		quote : ' is charming'
   	},
   	{
   		person : '~ Victoria Taylor',
-  		quote : 'is disarming.'
-  	},  	
+  		quote : ' is disarming'
+  	},	
+  	{
+  		person : '~ Thomas Baker',
+  		quote : ' is unreasonably talented'
+  	},	
   	{
   		person : '~ Charlie Gleason',
-  		quote : 'never sleeps.'
+  		quote : ' never sleeps'
+  	},
+  	{
+  		person : '~ Joshua Merriman',
+  		quote : ' is the batman'
   	},
   	{
   		person : '~ Michael Wu',
-  		quote : 'has ADHD.'
+  		quote : ' has ADHD'
   	},  	
   	{
   		person : '~ Lisa Rime',
-  		quote : 'lacks impulse control.'
+  		quote : ' lacks impulse control'
   	},
   	{
   		person : '~ Dane Hunnerup',
-  		quote : 'is a honey badger.'
+  		quote : ' is a honey badger'
+  	},
+  	{
+  		person : '~ AJ Arbit',
+  		quote : ' > chuck norris'
+  	},
+  	{
+  		person : '~ Joshua Merriman',
+  		quote : ', my anti-drug'
+  	},
+  	{
+  		person : '~ Cthuwho Fhtagn',
+  		quote : ' is made of lasers'
   	}
+  	
   ];
-  
+   
 
   
 	var counter = 0;
