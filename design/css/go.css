@@ -15,15 +15,15 @@ html, body, .yelling, .rad{height: 100%;}
 body{background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 
 a:focus{outline: none;}
-.yelling{background: #ba0707 url(../images/texture.png); box-shadow: 0 0 200px rgba(0,0,0,0.5) inset}
+.yelling{background: #ba0707 url(../images/texture.png); box-shadow: 0 0 200px rgba(0,0,0,0.5) inset; display: none;}
 .yelling p{font-size: 120px; margin: 0 auto; line-height: 120px; text-align: center;  color: #fff; text-shadow: 0 2px 1px rgba(115, 0, 0, 0.5);  letter-spacing: -2px; text-transform: uppercase;  vertical-align: middle; position: absolute; top:50%; left: auto; width: 100%; padding: 0; margin-top: -140px;  -moz-animation: 1s ease 0s normal none 1 bounce;}
 .yelling em{font-size: 22px; opacity: 0.7; display: block; font-weight: normal; letter-spacing: 1px;}
 .yelling strong{position: relative;}
 .yelling strong:after{content:''; display: block;width: 100%; height: 20px; position: absolute; top:100%; margin-top: -20px; left: 0; background: #fff; box-shadow: 0 2px 1px rgba(115, 0, 0, 0.5); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg);}
 
 
-.hide_stuff{position: absolute; top:100%; left: 0; width: 100%; overflow: hidden; height: 80px; margin-top: -80px;}
-.dude{ border-radius: 9999px; position: absolute; top: 100%; left: 50%; margin: -60px 0 0 -100px; width: 200px; height: 200px; font-size: 22px; color: #fff; text-decoration: none; text-align: center; line-height: 30px; font-weight: 900; text-transform: uppercase; padding: 20px 0 0; box-shadow: inset 0 2px 1px rgba(0,0,0,.8); transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; border-bottom: 2px solid rgba(0,0,0,0.8)}
+.hide_stuff{position: absolute; top:100%; left: 0; width: 100%; overflow: hidden; height: 80px; margin-top: -80px; display: none;}
+.dude{ border-radius: 9999px; position: absolute; top: 100%; left: 50%; margin: -60px 0 0 -100px; width: 200px; height: 200px; font-size: 22px; color: #fff; text-decoration: none; text-align: center; line-height: 30px; font-weight: 900; text-transform: uppercase; padding: 20px 0 0; box-shadow: inset 0 2px 1px rgba(0,0,0,.8); transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; background: #172226 url(../images/dark_canvas.jpg) no-repeat center fixed; border-bottom: 2px solid rgba(0,0,0,0.8);;}
 .dude em{display: block; width: 100%; text-align: center; top:18px; left: 0; font-style: italic; position: absolute; opacity: 0.5}
 .dude:hover{color: #fff; text-decoration: none;}
 .dude:hover em{opacity: 1;}
