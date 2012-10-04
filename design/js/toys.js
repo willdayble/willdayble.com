@@ -37,10 +37,12 @@ $(document).ready(function(){
   		person : '~ Ben Prendergast',
   		quote : ' is inspired'
   	},
+/*
   	{
   		person : '~ Effie Rose Pryer',
   		quote : ' is involved'
   	},
+*/
   	{
   		person : '~ Caz Pringle',
   		quote : " is the people's poet"
