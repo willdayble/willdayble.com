@@ -68,7 +68,7 @@ a:focus{outline: none;}
 .chat {padding: 20px 0 0;}
 .chat input,
 .chat label{display: inline-block; padding: 5px; margin: 0; color: #fff; font-size: 16px; width: 180px}
-.chat label{width: 80px;}
+.chat label{width: 80px; padding-left: 0;}
 
 .chat p{clear: both;}
 .chat a{color: #fff;}
