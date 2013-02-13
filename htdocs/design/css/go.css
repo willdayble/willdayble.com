@@ -1,0 +1,113 @@
+/*
+	Will Dayble designs on internets and doesn't afraid of anything
+*/
+
+.arrows{z-index: 100;}
+.content{z-index: 200;}
+
+
+
+html, body{background: #c52239; font-weight: 200;}
+a:focus{outline: none;}
+
+
+h1{position: absolute; top:10%; left: 30px; font-weight: 100; color: #fff; font-size: 38px; padding-left: 50px;}
+h1 .boundy{width: 30px; height: 50px; position: absolute; top:4px; left: 0;}
+h1 .ss-rows{font-size: 28px; color: #fff; opacity: 0.3; position: absolute; top:0; left: 0;}
+h1 .where_we_at{overflow: hidden; width: 0; }
+
+h1 a{color: #ccf5ff; cursor: pointer;}
+h1 a:hover{text-decoration: none; color: #fff;}
+
+h1.active a .ss-rows,
+h1 a:hover .ss-rows{margin-left: 3px; opacity: 0.4;}
+
+h1 .menu{display: block; padding:20px 0}
+h1 .menu a{display: block; font-size: 18px; line-height: 24px; padding: 5px 0; font-weight: 200;}
+h1 .menu a:hover{margin-left: 5px;}
+h1 .menu a.active{margin-left: 10px;}
+
+/* now the modes */
+h1 .menu{display: none;}
+h1.active a{color: #fff;}
+h1.active a:hover{color: #ccf5ff;}
+h1.active .menu{display: block;}
+
+
+.bound{height: 100%; width: 100%; position: absolute; top: 0; left: 0; min-height: 600px; min-width: 900px}
+
+
+.circle{border-radius: 99999em; width: 420px; height: 420px; background: #e2e2e2; position: absolute; top: 50%; left: 45%; margin: -210px 0 0 -210px;}
+
+
+.circle .arrows{width: 600px; height: 600px; position: absolute; top:0; left: 0; }
+.circle .arrows{margin: -110px 0 0 -60px;}
+.circle .arrow{position: absolute; top:0; right: 0px; text-decoration: none; display: block; width: 80px; height: 80px; border: 3px solid #78e8dd; border-bottom: none; border-left: none;}
+.circle .arrow_prev{bottom:0; right: 0; left: 0; top:100%; border: 3px solid #78e8dd; border-right: none; border-top: none;}
+
+.circle .arrow.off,
+.circle .arrow.off:hover{border-right-color: #cf616c; border-top-color: #cf616c; cursor: default;}
+
+.circle .arrow_prev.off,
+.circle .arrow_prev.off:hover{border-left-color: #cf616c; border-bottom-color: #cf616c; cursor: default;}
+
+
+
+
+/* rotate this baby */
+.circle .arrows{
+	-webkit-transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+}
+
+.circle .arrows{
+	 -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
+/*
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+*/
+}
+
+
+
+.circle .arrow:hover{border-color: #fff}
+
+
+/* some transforms: */
+h1 .menu a,
+h1 a .ss-rows,
+.circle .arrow,
+.circle .tab,
+.circle .dude .zing{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
+
+
+
+
+
+/* some content  */
+
+.content {position: relative;}
+.content .about{font-size: 22px; line-height: 38px; text-align: center; color: #434343; font-weight: 100; letter-spacing: 1px; padding: 140px 40px 0;}
+.content .about hr{border-top-color: transparent; border-bottom-color: #bbb;}
+
+.content .about em{border-bottom: 1px solid #555; font-style: normal;}
+.content .about cite{display: block; font-size: 12px; font-weight: 300; color: #999;}
+.content .about cite a{color: #999;}
+.content .about cite a:hover{color: #666;}
+
+
+.content .dude{position: relative;}
+.content .dude .zing{position: absolute; top: 150px; left: 100%; margin-left: 60px; width: 300px}
+.content .dude .zing h3{font-size: 36px; color: #78e8dd; font-weight: 100; padding-bottom: 10px;}
+.content .dude .zing p{color: #fff; font-size: 18px; line-height: 30px;} 
+
+
+.content .vidya{border-radius: 9999em; overflow: hidden;}
+.content .vidya iframe{width: 100%; border-radius: 9999em; overflow: hidden;}
+
+
+.content .tab{opacity: 0; top: 10px; position: absolute;  left: 0; width: 420px; height: 420px;}
+.content .tab .dude .zing{top: 200px;}
+
+.content .tab.active{opacity:1; top: 0;}
+.content .tab.active .dude .zing{top: 150px;}
