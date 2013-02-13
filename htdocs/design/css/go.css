@@ -37,13 +37,13 @@ h1.active .menu{display: block;}
 .bound{height: 100%; width: 100%; position: absolute; top: 0; left: 0; min-height: 600px; min-width: 900px}
 
 
-.circle{border-radius: 99999em; width: 420px; height: 420px; background: #e2e2e2; position: absolute; top: 50%; left: 45%; margin: -210px 0 0 -210px;}
+.circle{border-radius: 99999em; width: 420px; height: 420px; position: absolute; top: 50%; left: 45%; margin: -210px 0 0 -210px;}
 
 
 .circle .arrows{width: 600px; height: 600px; position: absolute; top:0; left: 0; }
 .circle .arrows{margin: -110px 0 0 -60px;}
-.circle .arrow{position: absolute; top:0; right: 0px; text-decoration: none; display: block; width: 80px; height: 80px; border: 3px solid #78e8dd; border-bottom: none; border-left: none;}
-.circle .arrow_prev{bottom:0; right: 0; left: 0; top:100%; border: 3px solid #78e8dd; border-right: none; border-top: none;}
+.circle .arrow{position: absolute; top:0; right: 0px; text-decoration: none; display: block; width: 80px; height: 80px; border: 2px solid #78e8dd; border-bottom: none; border-left: none;}
+.circle .arrow_prev{bottom:0; right: 0; left: 0; top:100%; border: 2px solid #78e8dd; border-right: none; border-top: none;}
 
 .circle .arrow.off,
 .circle .arrow.off:hover{border-right-color: #cf616c; border-top-color: #cf616c; cursor: default;}
@@ -78,6 +78,8 @@ h1 .menu a,
 h1 a .ss-rows,
 .circle .arrow,
 .circle .tab,
+.btn,
+.btn-icon i,
 .circle .dude .zing{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
 
 
@@ -87,6 +89,8 @@ h1 a .ss-rows,
 /* some content  */
 
 .content {position: relative;}
+
+.content #about{background: #e2e2e2; border-radius: 9999em;}
 .content .about{font-size: 22px; line-height: 38px; text-align: center; color: #434343; font-weight: 100; letter-spacing: 1px; padding: 140px 40px 0;}
 .content .about hr{border-top-color: transparent; border-bottom-color: #bbb;}
 
@@ -97,17 +101,26 @@ h1 a .ss-rows,
 
 
 .content .dude{position: relative;}
+.content .dude img{max-width: auto;}
 .content .dude .zing{position: absolute; top: 150px; left: 100%; margin-left: 60px; width: 300px}
 .content .dude .zing h3{font-size: 36px; color: #78e8dd; font-weight: 100; padding-bottom: 10px;}
 .content .dude .zing p{color: #fff; font-size: 18px; line-height: 30px;} 
-
-
-.content .vidya{border-radius: 9999em; overflow: hidden;}
-.content .vidya iframe{width: 100%; border-radius: 9999em; overflow: hidden;}
-
+.content .dude .zing p a{color: #fff; border-bottom: 1px solid rgba(255,255,255,0.2); text-decoration: none;}
+.content .dude .zing p a:hover{border-bottom: 1px solid rgba(255,255,255,0.5);}
+.content .dude .zing .btn{margin-top: 10px;}
 
 .content .tab{opacity: 0; top: 10px; position: absolute;  left: 0; width: 420px; height: 420px;}
 .content .tab .dude .zing{top: 200px;}
 
 .content .tab.active{opacity:1; top: 0;}
 .content .tab.active .dude .zing{top: 150px;}
+
+
+.btn{box-shadow: none; background: #fff; border: none; color: #333; background-image: none; text-shadow: 0 1px 0 #fff; padding: 10px 15px; font-size: 17px; color: #444;}
+.content .dude .zing p .btn{color: #444;}
+.btn-icon{position: relative; padding-left: 42px;}
+.btn-icon i{position: absolute; top:12px; left: 15px; color: #666;}
+
+.btn:hover{opacity: 1; color: #000; background: #fff; box-shadow: 0px 0px 40px rgba(255,255,255,0.5);}
+.btn-icon:hover i{color: #444}
+
