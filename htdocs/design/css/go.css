@@ -22,10 +22,10 @@ h1 a:hover{text-decoration: none; color: #fff;}
 h1.active a .ss-rows,
 h1 a:hover .ss-rows{margin-left: 3px; opacity: 0.4;}
 
-h1 .menu{display: block; padding:20px 0}
-h1 .menu a{display: block; font-size: 18px; line-height: 24px; padding: 5px 0; font-weight: 200;}
-h1 .menu a:hover{margin-left: 5px;}
-h1 .menu a.active{margin-left: 10px;}
+h1 .menu{display: block; padding:20px 0; margin-left: -10px;}
+h1 .menu a{display: block; font-size: 18px; line-height: 24px; padding: 5px 10px; font-weight: 200;}
+h1 .menu a:hover{margin-left: 6px;}
+h1 .menu a.active{margin-left: 6px; color: #fff;}
 
 /* now the modes */
 h1 .menu{display: none;}
@@ -109,10 +109,18 @@ h1 a .ss-rows,
 .content .dude .zing p a:hover{border-bottom: 1px solid rgba(255,255,255,0.5);}
 .content .dude .zing .btn{margin-top: 10px;}
 
-.talks .dude .hero{border-radius: 99999em; background: #e2e2e2; width: 420px; height: 420px; position: relative; display: block; text-decoration: none;}
-.talks .dude .hero .ss-chat{color: #777;font-size: 180px; line-height: 100%; position: absolute; top:50%; left: 50%; margin: -65px 0 0 -85px;}
-.talks .dude .hero:hover{background: #fff}
-.talks .dude .hero:hover .ss-chat{color: #09f;}
+.speaking .dude .hero{border-radius: 99999em; background: #e2e2e2; width: 420px; height: 420px; position: relative; display: block; text-decoration: none;}
+.speaking .dude .hero .ss-chat{color: #777;font-size: 180px; line-height: 100%; position: absolute; top:50%; left: 50%; margin: -65px 0 0 -85px;}
+.speaking .dude .hero:hover{background: #fff}
+.speaking .dude .hero:hover .ss-chat{color: #09f;}
+
+.contact .dude .hero{border-radius: 99999em; background: #e2e2e2; width: 420px; height: 420px; position: relative; display: block; text-decoration: none;}
+.contact .dude .hero .ss-mail{color: #777;font-size: 180px; line-height: 100%; position: absolute; top:50%; left: 50%; margin: -65px 0 0 -85px;}
+.contact .dude .hero:hover{background: #fff}
+.contact .dude .hero:hover .ss-mail{color: #09f;}
+
+
+
 
 /* tab activiteee */
 /* ------------------------------------------------------------------------------- */
@@ -124,7 +132,7 @@ h1 a .ss-rows,
 
 
 .btn{box-shadow: none; background: #fff; border: none; color: #333; background-image: none; text-shadow: 0 1px 0 #fff; padding: 10px 15px; font-size: 17px; color: #444;}
-.content .dude .zing p .btn{color: #444;}
+.content .dude .zing p .btn{color: #444; margin-right: 5px;}
 .btn-icon{position: relative; padding-left: 42px;}
 .btn-icon i{position: absolute; top:12px; left: 15px; color: #666;}
 

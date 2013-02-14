@@ -100,8 +100,37 @@ $(document).ready(function() {
 	
 	
 	
-	
-	
+	/* menu clix */
+	$('.menu a').click(function(e){
+		e.stopPropagation();
+		e.preventDefault();
+		console.log();
+		
+		
+		$('.menu a.active').removeClass('active');
+		$(this).addClass('active');
+		
+		$('.content .tab.active').removeClass('active');
+		$("#" + $(this).attr('rel')).addClass('active');
+		
+		
+		$('.arrow_prev').removeClass('off');
+		$('.arrow_next').removeClass('off');
+		
+		
+		if (!$('.content .tab.active').prev('.tab').length > 0)
+		{
+			$('.arrow_prev').addClass('off');
+		}				
+
+		if (!$('.content .tab.active').next('.tab').length > 0)
+		{
+			$('.arrow_next').addClass('off');
+		}			
+		
+		$('.where_we_at').css('width', "" + 100 - ((($('.menu a.active').nextAll().length / $('.menu a').length)) * 100) + "%");		
+		
+	});
 	
 	
 	
