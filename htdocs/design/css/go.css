@@ -183,6 +183,17 @@ h1 a .ss-rows,
 
 @media (max-width: 680px) {
 
+
+	h1,
+	h1 .menu a,
+	h1 a .ss-rows,
+	.circle .arrow,
+	.circle .tab,
+	.btn,
+	.btn-icon i,
+	.circle .dude .zing{-webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none;}
+
+
 	html,body{width: auto; height: auto;}
 	html,body{overflow-y: auto}
 
@@ -203,6 +214,8 @@ h1 a .ss-rows,
 
 
 @media (max-width: 610px) {
+
+
 
 	html, body{height: 100%}
 
