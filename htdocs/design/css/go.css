@@ -81,6 +81,7 @@ h1 a .ss-rows,
 .circle .tab,
 .btn,
 .btn-icon i,
+.kontakt a,
 .circle .dude .zing{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
 
 
@@ -149,6 +150,11 @@ h1 a .ss-rows,
 
 
 
+.kontakt{position: fixed; bottom: 20px; right: 20px;}
+.kontakt a{font-size: 18px; color: #d56873; margin-right: 10px; text-decoration: none; font-weight: 200;}
+.kontakt a:hover{color: #fff;}
+
+
 @media (max-width: 1050px) {
 
 	h1{top: 30px;}
@@ -192,13 +198,12 @@ h1 a .ss-rows,
 	.btn,
 	.btn-icon i,
 	.circle .dude .zing{-webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none;}
-
-
+	
 	html,body{width: auto; height: auto;}
 	html,body{overflow-y: auto}
 
 	.circle .arrows{display: none;}
-	.circle{top:auto; left: auto; margin: 130px 30px 0;}
+	.circle{top:auto; left: auto; margin: 180px 30px 0;}
 
 	.circle .tab{position: relative; top:auto; left: auto; opacity: 1; margin-bottom: 80px;}
 	.content .dude .zing,
@@ -210,11 +215,17 @@ h1 a .ss-rows,
 	
 	.bound{min-width: 0;}
 	
+	.kontakt{display: none;}
+	
 }
 
 
 @media (max-width: 610px) {
 
+
+	.kontakt{position: relative;  padding: 30px 4px 30px; display: block; text-align: center; bottom: auto; right: auto;}
+	.kontakt a{font-size: 26px; line-height: 120%;}
+	h1{display: none;}
 
 
 	html, body{height: 100%}
@@ -230,7 +241,7 @@ h1 a .ss-rows,
 	.content .tab,
 	.contact .dude .hero{width: auto; height: auto; text-align: center; position: relative;}
 	
-	.circle{margin: 80px 20px 0;}
+	.circle{margin: 0px 20px 0;}
 	
 	
 	
