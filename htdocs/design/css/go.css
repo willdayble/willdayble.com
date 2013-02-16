@@ -7,7 +7,7 @@
 
 
 
-html, body{background: #c52239; font-weight: 200;}
+html, body{background: #c52239; font-weight: 200; overflow: hidden;}
 a:focus{outline: none;}
 
 
@@ -74,6 +74,7 @@ h1.active .menu{display: block;}
 
 
 /* some transforms: */
+h1,
 h1 .menu a,
 h1 a .ss-rows,
 .circle .arrow,
@@ -127,6 +128,13 @@ h1 a .ss-rows,
 .content .tab{opacity: 0; top: 10px; position: absolute;  left: 0; width: 420px; height: 420px; z-index: 100;}
 .content .tab .dude .zing{top: 200px;}
 
+
+.content .tab.previously{top: -15px;}
+.content .tab.previously .dude .zing{top: -400px;}
+
+.content .tab.upcoming{top: 15px;}
+.content .tab.upcoming .dude .zing{top: 200px;}
+
 .content .tab.active{opacity:1; top: 0; z-index: 200}
 .content .tab.active .dude .zing{top: 150px;}
 
@@ -139,3 +147,85 @@ h1 a .ss-rows,
 .btn:hover{opacity: 1; color: #000; background: #fff; box-shadow: 0px 0px 40px rgba(255,255,255,0.5);}
 .btn-icon:hover i{color: #444}
 
+
+
+@media (max-width: 1050px) {
+
+	h1{top: 30px;}
+
+	.circle,
+	.speaking .dude .hero,
+	.content .tab,
+	.contact .dude .hero{width: 220px; height: 220px}
+	.content .tab.active .dude .zing{top: 50px}
+
+	.circle .arrows{margin: -180px 0 0 -50px; height: 500px;}
+	
+	.content #about{background: none;}
+	.content .about{padding: 0; color: #fff; width: 450px}
+	.content .about em{border-bottom-color: #fff;}
+	.content .about cite a{color: #fff;}
+	
+
+}
+
+@media (max-width: 780px) {
+
+	.circle{left: 35%;}
+	.circle .arrows{margin: -180px 0 0 20px; width: 450px;
+		-webkit-transform:rotate(19deg);
+		-moz-transform:rotate(19deg);
+	}
+	.circle .arrow{height: 40px; width: 40px;}
+
+}
+
+
+@media (max-width: 680px) {
+
+	html,body{width: auto; height: auto;}
+	html,body{overflow-y: auto}
+
+	.circle .arrows{display: none;}
+	.circle{top:auto; left: auto; margin: 130px 30px 0;}
+
+	.circle .tab{position: relative; top:auto; left: auto; opacity: 1; margin-bottom: 80px;}
+	.content .dude .zing,
+	.content .tab .dude .zing{margin-left: 40px; top:50px;}
+	#about{display: none;}
+	
+	.speaking .dude .hero .ss-chat,
+	.contact .dude .hero .ss-mail{font-size: 100px; margin: -36px 0 0 -49px;}
+	
+	.bound{min-width: 0;}
+	
+}
+
+
+@media (max-width: 610px) {
+
+	html, body{height: 100%}
+
+	.bound{top:auto; width: auto; left: auto; height: auto; position: relative;}
+
+	h1{position: relative; left: 10px;}
+	
+	.content .dude{width: auto;}
+	
+	.circle,
+	.speaking .dude .hero,
+	.content .tab,
+	.contact .dude .hero{width: auto; height: auto; text-align: center; position: relative;}
+	
+	.circle{margin: 80px 20px 0;}
+	
+	
+	
+	.content .dude .zing,
+	.content .tab .dude .zing{position: relative; top:auto; left: auto; text-align: center; width: auto; margin: 0 0 30px;}
+	
+	.content .dude .zing h3{margin: 30px 0 0; line-height: 48px;}
+	
+	.content .dude img{max-width: 100%;}
+
+}

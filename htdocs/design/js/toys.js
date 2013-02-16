@@ -39,7 +39,8 @@ $(document).ready(function() {
 		if ($('.content .tab.active').next('.tab').length > 0)
 		{			
 		
-			$('.content .tab.active').removeClass('active').next('.tab').addClass('active');
+			$('.content .tab.active').removeClass('active').next('.tab').addClass('active').prevAll('.tab').removeClass('upcoming').addClass('previously');
+			$('.content .tab.active').nextAll('.tab').removeClass('previously').addClass("upcoming");
 			
 			/* le menu */
 			$('.menu a').removeClass('active');
@@ -70,7 +71,8 @@ $(document).ready(function() {
 		
 		if ($('.content .tab.active').prev('.tab').length > 0)
 		{			
-			$('.content .tab.active').removeClass('active').prev('.tab').addClass('active');
+			$('.content .tab.active').removeClass('active').prev('.tab').addClass('active').prevAll('.tab').removeClass('upcoming').addClass('previously');
+			$('.content .tab.active').nextAll('.tab').removeClass('previously').addClass("upcoming");
 	
 			/* le menu */
 			$('.menu a').removeClass('active');
@@ -111,7 +113,8 @@ $(document).ready(function() {
 		$(this).addClass('active');
 		
 		$('.content .tab.active').removeClass('active');
-		$("#" + $(this).attr('rel')).addClass('active');
+		$("#" + $(this).attr('rel')).addClass('active').prevAll('.tab').removeClass('upcoming').addClass('previously');
+		$("#" + $(this).attr('rel')).nextAll('.tab').removeClass('previously').addClass("upcoming");
 		
 		
 		$('.arrow_prev').removeClass('off');
