@@ -2,9 +2,10 @@
 	Will Dayble designs on internets and doesn't afraid of anything
 */
 
+.bound{z-index: 50}
 .arrows{z-index: 100;}
 .content{z-index: 200;}
-
+.kontakt{z-index: 300}
 
 
 html, body{background: #c52239; font-weight: 200; overflow: hidden;}
