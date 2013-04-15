@@ -15,7 +15,7 @@ img{max-width: 100%}
 
 h1{position: absolute; top:10%; left: 30px; font-weight: 100; color: #fff; font-size: 38px; padding-left: 50px;}
 h1 .boundy{width: 30px; height: 50px; position: absolute; top:4px; left: 0;}
-h1 .ss-rows{font-size: 28px; color: #fff; opacity: 0.3; position: absolute; top:0; left: 0;}
+h1 .ss-rows{font-size: 28px; color: #fff; opacity: 0.3; position: absolute; top:3px; left: 0;}
 h1 .where_we_at{overflow: hidden; width: 0; }
 
 h1 a{color: #ccf5ff; cursor: pointer;}
