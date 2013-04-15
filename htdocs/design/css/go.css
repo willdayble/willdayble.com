@@ -8,8 +8,9 @@
 .kontakt{z-index: 300}
 
 
-html, body{background: #c52239; font-weight: 200; overflow: hidden;}
+html, body{background: #c52239; font-weight: 200; font-family: "Helvetica Neue", Helvetica, serif; padding: 0;}
 a:focus{outline: none;}
+img{max-width: 100%}
 
 
 h1{position: absolute; top:10%; left: 30px; font-weight: 100; color: #fff; font-size: 38px; padding-left: 50px;}
@@ -109,7 +110,7 @@ h1 a .ss-rows,
 .content .dude{position: relative;}
 .content .dude img{max-width: auto;}
 .content .dude .zing{position: absolute; top: 150px; left: 100%; margin-left: 60px; width: 300px}
-.content .dude .zing h3{font-size: 36px; color: #78e8dd; font-weight: 100; padding-bottom: 10px;}
+.content .dude .zing h3{font-size: 36px; color: #78e8dd; font-weight: 100; padding-bottom: 10px; margin: 0;}
 .content .dude .zing p{color: #fff; font-size: 18px; line-height: 30px;} 
 .content .dude .zing p a{color: #fff; border-bottom: 1px solid rgba(255,255,255,0.2); text-decoration: none;}
 .content .dude .zing p a:hover{border-bottom: 1px solid rgba(255,255,255,0.5);}
@@ -144,7 +145,7 @@ h1 a .ss-rows,
 .content .tab.active .dude .zing{top: 150px;}
 
 
-.btn{box-shadow: none; background: #fff; border: none; color: #333; background-image: none; text-shadow: 0 1px 0 #fff; padding: 10px 15px; font-size: 17px; color: #444;}
+.btn{box-shadow: none; background: #fff; border: none; color: #333; background-image: none; text-shadow: 0 1px 0 #fff; padding: 10px 15px; font-size: 17px; color: #444; border-radius: 5px; display: inline-block;}
 .content .dude .zing p .btn{color: #444; margin-right: 5px;}
 .btn-icon{position: relative; padding-left: 42px;}
 .btn-icon i{position: absolute; top:12px; left: 15px; color: #666;}
@@ -169,7 +170,7 @@ h1 a .ss-rows,
 	.contact .dude .hero{width: 220px; height: 220px}
 	.content .tab.active .dude .zing{top: 50px}
 
-	.circle .arrows{margin: -180px 0 0 -50px; height: 500px;}
+	.circle .arrows{margin: -180px 0 0 -80px; height: 500px;}
 	
 	.content #about{background: none;}
 	.content .about{padding: 0; color: #fff; width: 450px}
@@ -204,7 +205,7 @@ h1 a .ss-rows,
 	.circle .dude .zing{-webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none;}
 	
 	html,body{width: auto; height: auto;}
-	html,body{overflow-y: auto}
+	body{overflow-y: auto}
 
 	.circle .arrows{display: none;}
 	.circle{top:auto; left: auto; margin: 180px 30px 0;}
@@ -246,6 +247,8 @@ too many breaks
 
 	h1{position: relative; left: 10px;}
 	
+	.content .tab{padding: 30px 0; margin: 0;}
+	.content .tab:nth-child(even){background: rgba(0,0,0,0.1); padding: 20px 40px; margin: 0 -20px;}
 	.content .dude{width: auto;}
 	
 	.circle,
