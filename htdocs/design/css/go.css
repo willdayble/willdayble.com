@@ -53,8 +53,6 @@ h1.active .menu{display: block;}
 .circle .arrow_prev.off:hover{border-left-color: #cf616c; border-bottom-color: #cf616c; cursor: default;}
 
 
-
-
 /* rotate this baby */
 .circle .arrows{
 	-webkit-transform:rotate(15deg);
@@ -67,6 +65,11 @@ h1.active .menu{display: block;}
 	-webkit-transform:rotate(-20deg);
 	-moz-transform:rotate(-20deg);
 */
+}
+
+.circle .arrows:hover{
+	-webkit-transform:rotate(16deg);
+	-moz-transform:rotate(16deg);
 }
 
 
