@@ -5,10 +5,12 @@
 .bound{z-index: 50}
 .arrows{z-index: 100;}
 .content{z-index: 200;}
+h1{z-index: 250}
 .kontakt{z-index: 300}
 
 
 html, body{background: #c52239; font-weight: 200; font-family: "Helvetica Neue", Helvetica, serif; padding: 0;}
+a{text-decoration: none;}
 a:focus{outline: none;}
 img{max-width: 100%}
 
@@ -18,7 +20,7 @@ h1 .boundy{width: 30px; height: 50px; position: absolute; top:4px; left: 0;}
 h1 .ss-rows{font-size: 28px; color: #fff; opacity: 0.3; position: absolute; top:3px; left: 0;}
 h1 .where_we_at{overflow: hidden; width: 0; }
 
-h1 a{color: #ccf5ff; cursor: pointer;}
+h1 a{color: #ccf5ff; cursor: pointer; background: #c52239;}
 h1 a:hover{text-decoration: none; color: #fff;}
 
 h1.active a .ss-rows,
