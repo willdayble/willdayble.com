@@ -13,6 +13,13 @@ header .logo{margin-left: -10px;}
 
 .fill.fya{background-image: url(../images/willdayble/youtube-screenie.jpg)}
 
+.fill.disrupt{background-image: url(../images/willdayble/disrupt_leader.jpg); border-top: 1px solid #000;}
+.fill.disrupt .btn{background: #fff; color: #000; border: 2px solid rgba(0,0,0,0.2);}
+.fill.disrupt .btn i{top:25px;}
+.fill.disrupt .btn em{display: block; font-size: 16px; color: #8a9085; padding: 5px 0 0}
+.fill.disrupt .btn:hover,
+.fill.disrupt .btn:focus{}
+
 .projects{background: #f8f8f6}
 
 
