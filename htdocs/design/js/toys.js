@@ -1,24 +1,4 @@
-/*
-$(document).ready(function() {
-
-	$('.js_get_js').hide();
-  var love = ["slow food", "tech", "sustainability", "social enterprise", "coffee", "local food", "bikes", "motorbikes", "projects that make the world better"];
-	var counter = 0;
-	
-	var timer = setInterval( boast, 3000);
-	
-	function boast()
-  {
-		counter = (counter == love.length - 1) ? 0 : counter + 1;
-	
-		$('.js_quote').fadeOut(500, function() {
-			$('.js_quote').text(love[counter]).fadeIn();
-    });
-
-	}
-
-});
-*/
+/* this is all old now! */
 
 
 $(document).ready(function() {

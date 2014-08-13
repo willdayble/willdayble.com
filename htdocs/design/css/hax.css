@@ -1,0 +1,14 @@
+/* LOL HAX for willdayble.com */
+
+header .logo{margin-left: -10px;}
+
+.landing h3,
+.landing p{text-align: center;}
+
+@media (max-width: 767px){
+	.landing {padding-top:70px;}
+}
+
+
+
+.fill.fya{background-image: url(../images/willdayble/youtube-screenie.jpg)}
