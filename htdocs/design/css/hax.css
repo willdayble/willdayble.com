@@ -25,3 +25,10 @@ header .logo{margin-left: -10px;}
 
 .tfol{}
 .tfol img{max-width: 140px;}
+
+
+.feat a{display: block; width: 33.333%; float: left; position: relative; background: #000;}
+.feat a img{width: 100%;}
+.feat a i{font-size: 100px; color: #fff; position: absolute; top:50%; left: 50%; margin: -50px 0 0 -50px; opacity: 0.3;}
+.feat a:hover img{opacity: 0.5}
+.feat a:hover i{opacity: 1}
