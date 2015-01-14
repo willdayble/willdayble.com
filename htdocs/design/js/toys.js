@@ -6,8 +6,8 @@ $(document).ready(function() {
 	var phrases = [
     "Keynotes without over-rehearsed buzzwords.",
     "Tech strategy normal humans can understand.",
-    "Same same, but different.",
-    "Social enterprise without the bullshit." 
+    "Same same, but very different.",
+    "Social enterprise that actually works."
 	];
 
 	var rotator = 0;
