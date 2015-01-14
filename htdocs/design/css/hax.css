@@ -12,6 +12,9 @@ header .logo{margin-left: -10px;}
 
 
 .fill.fya{background-image: url(../images/willdayble/youtube-screenie.jpg)}
+.fill.yeah{background-image: url(../images/willdayble/yeah.gif)}
+.fill.magic{background-image: url(../images/willdayble/magic.gif)}
+.fill.woah{background-image: url(../images/willdayble/woah.gif)}
 
 .fill.disrupt{background-image: url(../images/willdayble/disrupt_leader.jpg); border-top: 1px solid #000;}
 .fill.disrupt .btn{background: #fff; color: #000; border: 2px solid rgba(0,0,0,0.2);}
@@ -45,3 +48,7 @@ header .logo{margin-left: -10px;}
 @media (max-height: 550px){
 	.ego h1{padding: 30px 0;}
 }
+
+
+article dd .costs{float: right;}
+article dd .costs small{font-size: 60%; opacity: 0.5;}
