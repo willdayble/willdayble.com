@@ -17,11 +17,17 @@ header .logo{margin-left: -10px;}
 .fill.woah{background-image: url(../images/willdayble/woah.gif)}
 
 .fill.disrupt{background-image: url(../images/willdayble/disrupt_leader.jpg);}
-.fill.disrupt .btn{background: #fff; color: #000; display: inline-block;}
+.fill.disrupt .btn{background: #fff; color: #000;}
 .fill.disrupt .btn i{top:25px;}
 .fill.disrupt .btn em{display: block; font-size: 16px; color: #8a9085; padding: 5px 0 0}
 .fill.disrupt .btn:hover,
 .fill.disrupt .btn:focus{}
+
+@media (min-width: 1000px){
+	.fill.disrupt .btn{font-size: 32px;}
+	.fill.disrupt .btn i{top:30px; font-size: 24px;}
+	.fill.disrupt .btn em{font-size: 19px;}
+}
 
 @media (max-width: 500px){
 	.fill.disrupt .btn{display: block; text-align: left; white-space:normal;}
