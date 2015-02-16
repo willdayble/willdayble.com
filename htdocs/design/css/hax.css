@@ -64,3 +64,10 @@ article dd .costs{float: right;}
 article dd .costs small{font-size: 60%; opacity: 0.5;}
 
 .reverse.red cite{color: #fff; opacity: 0.8;}
+
+
+.aboot{background: #f5f6f7;}
+.aboot p,
+.aboot h3{text-align: center;}
+.aboot p a{text-decoration: underline; color: inherit;}
+.aboot p a:hover{text-decoration: none;}
