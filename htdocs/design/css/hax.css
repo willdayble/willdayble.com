@@ -10,6 +10,10 @@ header .logo{margin-left: -10px;}
 }
 
 
+@media (min-width: 1000px){
+	.fill p{font-size: 120px;}
+}
+
 
 .fill.fya{background-image: url(../images/willdayble/youtube-screenie.jpg)}
 .fill.yeah{background-image: url(../images/willdayble/yeah.gif)}
@@ -79,9 +83,10 @@ article dd .costs small{font-size: 60%; opacity: 0.5;}
 
 header.wood a,
 .fill.wood p,
-.fill.wood .btn{color: #332d2b;}
+.fill.wood .btn{color: #392822;  opacity: 0.8; text-shadow: 0px 1px 1px #fff;}
 header.wood a.btn-cta,
-.fill.wood .btn{ border-color: #332d2b;}
+.fill.wood .btn{ border-color: #392822;}
+.fill.wood .btn:hover{background: #392822; color: #fff; text-shadow: none;}
 
 .progress-wood{border: 1px solid #ccc; height: 50px; max-width: 680px; margin: 0 auto 50px; position: relative; box-shadow: none;}
 .progress-wood .perc{display: block; position: absolute; top:0; right: 0;  padding: 13px; font-size: 21px; line-height: 24px; text-align: center; color: #aaa;}
