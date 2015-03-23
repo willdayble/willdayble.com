@@ -16,6 +16,7 @@ header .logo{margin-left: -10px;}
 .fill.magic{background-image: url(../images/willdayble/magic.gif)}
 .fill.woah{background-image: url(../images/willdayble/woah.gif)}
 .fill.cash{background-image: url(../images/willdayble/cash.gif)}
+.fill.wood{background-image: url(../images/wood/light_wood.jpg)}
 
 .fill.disrupt{background-image: url(../images/willdayble/disrupt_leader.jpg);}
 .fill.disrupt .btn{background: #fff; color: #000;}
@@ -72,3 +73,20 @@ article dd .costs small{font-size: 60%; opacity: 0.5;}
 .aboot h3{text-align: center;}
 .aboot p a{text-decoration: underline; color: inherit;}
 .aboot p a:hover{text-decoration: none;}
+
+
+/* WOOD */
+
+header.wood a,
+.fill.wood p,
+.fill.wood .btn{color: #332d2b;}
+header.wood a.btn-cta,
+.fill.wood .btn{ border-color: #332d2b;}
+
+.progress-wood{border: 1px solid #ccc; height: 50px; max-width: 680px; margin: 0 auto 50px; position: relative; box-shadow: none;}
+.progress-wood .perc{display: block; position: absolute; top:0; right: 0;  padding: 13px; font-size: 21px; line-height: 24px; text-align: center; color: #aaa;}
+
+
+@media (max-width: 860px){
+	.progress-wood{margin: 20px 0 30px;}
+}
