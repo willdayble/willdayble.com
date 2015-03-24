@@ -2,6 +2,10 @@
 
 header .logo{margin-left: -10px;}
 
+header .btn{border: 2px solid transparent;}
+header .btn-cta{border-color:#fff;}
+header .btn:hover{text-decoration: none; border-bottom-color:#fff;}
+
 .landing h3,
 .landing p{text-align: center;}
 
@@ -83,10 +87,11 @@ article dd .costs small{font-size: 60%; opacity: 0.5;}
 
 header.wood a,
 .fill.wood p,
-.fill.wood .btn{color: #392822;  opacity: 0.8; text-shadow: 0px 1px 1px #fff;}
+.fill.wood .btn{color: #392822;  opacity: 0.6; text-shadow: 0px 1px 1px #fff;}
+header.wood a:hover{opacity: 1; color: inherit;}
 header.wood a.btn-cta,
 .fill.wood .btn{ border-color: #392822;}
-.fill.wood .btn:hover{background: #392822; color: #fff; text-shadow: none;}
+.fill.wood .btn:hover{background: #392822; color: #fff; text-shadow: none; box-shadow: 0px 1px 0px #fff, inset 0px 1px 1px rgba(0,0,0,0.4);}
 
 .progress-wood{border: 1px solid #ccc; height: 50px; max-width: 680px; margin: 0 auto 50px; position: relative; box-shadow: none;}
 .progress-wood .perc{display: block; position: absolute; top:0; right: 0;  padding: 13px; font-size: 21px; line-height: 24px; text-align: center; color: #aaa;}
