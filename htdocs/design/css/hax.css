@@ -18,7 +18,6 @@ header .btn:hover{text-decoration: none; border-bottom-color:#fff;}
 	.fill p{font-size: 120px;}
 }
 
-
 .fill.fya{background-image: url(../images/willdayble/youtube-screenie.jpg)}
 .fill.yeah{background-image: url(../images/willdayble/yeah.gif)}
 .fill.magic{background-image: url(../images/willdayble/magic.gif)}
@@ -55,7 +54,8 @@ header .btn:hover{text-decoration: none; border-bottom-color:#fff;}
 .feat a:hover i{opacity: 1}
 
 
-.ego h1{font-family: "ff-meta-serif-web-pro"; font-weight: bold; color: #fff; font-size: 100px; padding: 50px 0;}
+article.ego{background: url(../images/bio/will-dayble-80.jpg) no-repeat top; background-size: cover;}
+article.ego h1{font-family: "ff-meta-serif-web-pro"; font-weight: bold; color: #fff; font-size: 100px; padding: 50px 0;}
 
 @media (min-width: 1000px){
 	.ego h1{padding: 100px 0; font-size: 120px; min-height: 550px;}
