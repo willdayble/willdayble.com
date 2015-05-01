@@ -62,6 +62,7 @@ article.ego h1{font-family: "ff-meta-serif-web-pro"; font-weight: bold; color: #
 }
 
 @media (max-width: 768px){
+	article.ego{height: 400px;}
 	article.ego h1{font-size: 50px;}
 }
 
