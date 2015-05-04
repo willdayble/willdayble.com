@@ -40,6 +40,7 @@ header .btn:hover{text-decoration: none; border-bottom-color:#fff;}
 
 @media (max-width: 500px){
 	.fill.disrupt .btn{display: block; text-align: left; white-space:normal;}
+	blockquote q{font-size: 24px;}
 }
 
 .projects{background: #f8f8f6}
