@@ -5,6 +5,7 @@ $(document).ready(function() {
 	/* -------------------------------------- */
 	var phrases = [
     "Less think,<br> more do.",
+    "Digital, on human terms.",    
     "Same same, but very different."
 	];
 
