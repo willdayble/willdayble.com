@@ -5,9 +5,9 @@ $(document).ready(function() {
 	/* -------------------------------------- */
 	var phrases = [
     "Less think,<br> more do.",
-    "Digital, on human terms.",
+    "Digital disruption, in human terms.",
     "Same same, but very different.",
-    "Getting shit done.",    
+    "Getting shit done.",
 	];
 
 	var rotator = 0;
