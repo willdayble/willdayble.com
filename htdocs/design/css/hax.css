@@ -104,3 +104,8 @@ header.wood a.btn-cta,
 @media (max-width: 860px){
 	.progress-wood{margin: 20px 0 30px;}
 }
+
+a.sizeimg{background: rgba(0,0,0,0.1); display: block; padding: 10px;}
+a.sizeimg,
+a.sizeimg img{max-width: 100%;}
+a.sizeimg:hover{background: rgba(0,0,0,0.2);}
