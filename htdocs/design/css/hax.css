@@ -38,7 +38,7 @@ header .btn:hover{text-decoration: none; border-bottom-color:#fff;}
 	.fill.disrupt .btn em{font-size: 19px;}
 }
 
-blockquote q{font-size: 48px; display: block; padding-bottom: 24px;}
+blockquote q{font-size: 36px; display: block; padding-bottom: 24px;}
 
 @media (max-width: 500px){
 	.fill.disrupt .btn{display: block; text-align: left; white-space:normal;}
