@@ -44,6 +44,7 @@ aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; m
 aside p a{font-size: 14px; display: inline-block; padding: 10px; color: #ccc; padding: 10px 20px;}
 aside p a:hover{background: rgba(0,0,0,0.5);}
 
+aside.money{background-image: url(../images/willdayble/cash.gif);}
 
 /* main event */
 article{margin-left: 33%; padding: 80px 10%; border-bottom: 1px solid #eee;}
