@@ -86,6 +86,7 @@ p:after,
 
 #contact{padding-bottom: 500px;}
 
+hr{border: none;}
 
 @media (max-width: 1000px){
 	aside{width: 25%;}
@@ -100,6 +101,7 @@ p:after,
 	article blockquote cite{text-align: left; position: relative; font-size: 16px; padding: 10px 0 40px 55px;} 	
 	article blockquote cite img{position: absolute; top:0; left: 0; width: 40px; margin: 0;}
 	article blockquote p .lquo{position: absolute; top:0; left: -15px;}	
+	article blockquote p br{display: none;}
 	
 	.projects a{width: 50%;}
 }
@@ -108,5 +110,5 @@ p:after,
 	aside{position: relative; bottom: auto; width: auto; height: 350px;}
 	aside p{background: rgba(0,0,0,0.5); left: auto;}
 	article{width: auto; padding: 10px 40px; margin: 0;}
-	.projects a{width: 80%; float: none;}
+
 }
