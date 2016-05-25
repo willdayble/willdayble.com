@@ -36,17 +36,19 @@ strong{font-weight: 600;}
 .btn-icon{padding-left: 40px; margin: 0;}
 .btn-icon i{right: auto; left: 0px;}
 
-.btn-next{float: right;}
+.btn-next{float: right; margin-right: -20px; margin-left: 0;}
 
 /* aside */
-aside{width: 33%; background: #232125 url(../images/aside/lobo-square.jpg) 50% 50% no-repeat; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
+aside{width: 33%; background: #232125 50% 50% no-repeat; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
 aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0;}
 aside p a{font-size: 14px; display: inline-block; padding: 10px; color: #ccc; padding: 10px 20px;}
-aside p a:hover{background: rgba(0,0,0,0.5);}
+aside p a:hover{background: rgba(0,0,0,0.5); text-decoration: none;}
+
+aside p a i{font-size: 24px;}
 
 aside.money{background-image: url(../images/willdayble/cash.gif);}
 
-/* main event */
+/* the main event */
 article{margin-left: 33%; padding: 80px 10%; border-bottom: 1px solid #eee;}
 article.alt{background: #f0f4f5}
 article h2,
@@ -55,6 +57,20 @@ article h3{font-size: 36px;}
 article p,
 article dl{font-size: 19px; color: #555459; line-height: 24px; max-width: 600px;}
 
+article h2{max-width: 500px;}
+
+
+article nav{border:3px solid #e9ebeb; border-left: 0; border-right: 0; padding: 1px 20px 0px 30px; margin: 30px 0;}
+
+@media (min-width: 1000px){
+	article nav{margin-left: -30px; max-width: 500px;}
+}
+
+
+/*
+article nav:before,
+article nav:after{display:block; content: ''; background:#e9ebeb; height: 5px; max-width: 200px; margin: 20px 0;}
+*/
 
 article dt,
 article dd{padding: 9px 0;}
@@ -70,11 +86,11 @@ article blockquote cite img{width: 60px; display: block; text-align: center; mar
 
 
 
-.projects a{display: block; float: left; width: 33%; color: #ccc; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-align: center; padding: 40px 0;}
+.projects a{display: block; float: left; width: 33%; color: #ccc; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-align: center; padding: 40px 0; line-height: 18px; cursor: pointer;}
 .projects a img{max-width: 90%;display: block; margin: 0 auto 15px;}
 p:after,
 .projects:after{display: block; clear: both; content: '';}
-.projects a:hover{color: #e11b1b;}
+.projects a:hover{color: #e11b1b; text-decoration: none;}
 
 
 .biopic{display: block; height: 200px; float: left; margin:0 30px 30px 0; border-radius: 5px; background: #232125; position: relative;}
@@ -87,6 +103,11 @@ p:after,
 #contact{padding-bottom: 500px;}
 
 hr{border: none;}
+
+
+@media (min-width: 100px){
+	.xs{display: none;}
+}
 
 @media (max-width: 1000px){
 	aside{width: 25%;}
@@ -112,3 +133,10 @@ hr{border: none;}
 	article{width: auto; padding: 10px 40px; margin: 0;}
 
 }
+
+
+aside{background-image: url(../images/aside/renoman.jpg);}
+aside.wanker{background-image: url(../images/aside/lobo-square.jpg);}
+aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
+aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
+aside.yeah{background-image: url(../images/aside/yeah.gif);}
