@@ -46,8 +46,6 @@ aside p a:hover{background: rgba(0,0,0,0.5); text-decoration: none;}
 
 aside p a i{font-size: 24px;}
 
-aside.money{background-image: url(../images/willdayble/cash.gif);}
-
 /* the main event */
 article{margin-left: 33%; padding: 80px 10%; border-bottom: 1px solid #eee;}
 article.alt{background: #f0f4f5}
@@ -105,7 +103,7 @@ p:after,
 hr{border: none;}
 
 
-@media (min-width: 100px){
+@media (min-width: 1000px){
 	.xs{display: none;}
 }
 
@@ -140,3 +138,15 @@ aside.wanker{background-image: url(../images/aside/lobo-square.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
 aside.yeah{background-image: url(../images/aside/yeah.gif);}
+aside.money{background-image: url(../images/willdayble/cash.gif);}
+
+
+.footer{height: 300px; position: relative; overflow: hidden; z-index: 200;}
+.footer img{position: absolute; top:0; left: 0; right: 0; z-index: 250; min-width: 100%;}
+.footer:after{display: block; content: ''; background: rgba(0,0,0,0.7); position: absolute; top:0; left: 0; right: 0; bottom: 0; z-index: 300;}
+
+.footer .btn{display: block; position: absolute; top:50%; left: 50%; margin: -25px 0 0 -75px; z-index: 350; color: #fff;}
+
+@media (min-width: 1000px){
+	.footer{display: none;}
+}
