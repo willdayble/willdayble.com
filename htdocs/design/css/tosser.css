@@ -79,7 +79,7 @@ article dd{padding-left: 40px; border-bottom: 2px solid #eee; margin-left: -1px;
 article blockquote {margin: 0 -10% 30px;}
 article blockquote p{font-size: 42px; line-height: 60px; font-style: italic; position: relative; text-align: center; max-width: none;}
 article blockquote cite{display: block;color: #999; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 19px; font-style: normal; text-align: center;}
-article blockquote cite a{color: inherit;}
+article blockquote cite a{color: inherit; text-decoration: underline;}
 article blockquote cite img{width: 60px; display: block; text-align: center; margin: 30px auto 15px;}
 
 
