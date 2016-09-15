@@ -41,8 +41,8 @@ strong{font-weight: 600;}
 /* aside */
 aside{width: 33%; background: #232125 50% 50% no-repeat; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
 aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0;}
-aside p a{font-size: 14px; display: inline-block; padding: 10px; color: #ccc; padding: 10px 20px;}
-aside p a:hover{background: rgba(0,0,0,0.5); text-decoration: none;}
+aside p a{font-size: 14px; display: inline-block; color: #ccc; padding: 13px 20px 15px; background: rgba(0,0,0,0.7); margin: 0 5px; bottom: -5px; position: relative;}
+aside p a:hover{background: rgba(225,27,27,0.8); text-decoration: none; bottom: 0;	}
 
 aside p a i{font-size: 24px;}
 
@@ -133,8 +133,8 @@ hr{border: none;}
 }
 
 
-aside{background-image: url(../images/aside/renoman.jpg);}
-aside.wanker{background-image: url(../images/aside/lobo-square.jpg);}
+aside{background-image: url(../images/aside/laff.jpg);}
+aside.wanker{background-image: url(../images/aside/smirk.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
 aside.yeah{background-image: url(../images/aside/yeah.gif);}
