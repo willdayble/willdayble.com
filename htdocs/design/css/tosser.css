@@ -47,7 +47,7 @@ aside p a:hover{background: rgba(225,27,27,0.8); text-decoration: none; bottom: 
 aside p a i{font-size: 24px;}
 
 /* the main event */
-article{margin-left: 33%; padding: 80px 10%; border-bottom: 1px solid #eee;}
+article{margin-left: 33%; padding: 50px 10%; border-bottom: 1px solid #eee;}
 article.alt{background: #f0f4f5}
 article h2,
 article h3{font-size: 54px; font-weight: normal; margin: 0; padding: 36px 0 0;}
@@ -83,6 +83,7 @@ article blockquote cite a{color: inherit; text-decoration: underline;}
 article blockquote cite img{width: 60px; display: block; text-align: center; margin: 30px auto 15px;}
 
 
+article blockquote.left{margin: 0 0 30px;}
 article blockquote.left p{text-align: left; max-width: 600px; font-size: 24px; line-height: 32px; margin: 0 auto 12px;}
 article blockquote.left cite{font-size: 14px; display: block; position: relative; padding:12px 0 40px 50px; text-align: left; max-width: 550px; margin: 0 auto;}
 article blockquote.left cite img{width: 40px; height: 40px; border-radius: 999em; position: absolute; top:0; left: 0; margin: 0;}
@@ -115,6 +116,7 @@ hr{border: none;}
 	aside{width: 25%;}
 	article{margin-left: 25%; padding: 30px 8%;}
 	article blockquote {margin: 0 -5%;}
+	article blockquote.left{margin: 0;}
 	
 	article h2 {font-size: 48px;}
 	article h3,
