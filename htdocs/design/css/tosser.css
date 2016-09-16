@@ -41,7 +41,7 @@ strong{font-weight: 600;}
 /* aside */
 aside{width: 33%; background: #232125 50% 50% no-repeat; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
 aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0;}
-aside p a{font-size: 14px; display: inline-block; color: #ccc; padding: 13px 20px 15px; background: rgba(0,0,0,0.7); margin: 0 5px; bottom: -5px; position: relative;}
+aside p a{font-size: 14px; display: inline-block; color: #ccc; padding: 13px 20px 15px; background: rgba(0,0,0,0.1); margin: 0 5px; bottom: -5px; position: relative;}
 aside p a:hover{background: rgba(225,27,27,0.8); text-decoration: none; bottom: 0;	}
 
 aside p a i{font-size: 24px;}
@@ -58,7 +58,7 @@ article dl{font-size: 19px; color: #555459; line-height: 24px; max-width: 600px;
 article h2{max-width: 500px;}
 
 
-article nav{border:3px solid #e9ebeb; border-left: 0; border-right: 0; padding: 1px 20px 0px 30px; margin: 30px 0;}
+article nav{/* border:3px solid #e9ebeb; border-left: 0; border-right: 0; */ padding: 1px 20px 0px 30px; margin: 30px 0;}
 
 @media (min-width: 1000px){
 	article nav{margin-left: -30px; max-width: 500px;}
@@ -82,6 +82,10 @@ article blockquote cite{display: block;color: #999; font-family: "Helvetica Neue
 article blockquote cite a{color: inherit; text-decoration: underline;}
 article blockquote cite img{width: 60px; display: block; text-align: center; margin: 30px auto 15px;}
 
+
+article blockquote.left p{text-align: left; max-width: 600px; font-size: 24px; line-height: 32px; margin: 0 auto 12px;}
+article blockquote.left cite{font-size: 14px; display: block; position: relative; padding:12px 0 40px 50px; text-align: left; max-width: 550px; margin: 0 auto;}
+article blockquote.left cite img{width: 40px; height: 40px; border-radius: 999em; position: absolute; top:0; left: 0; margin: 0;}
 
 
 .projects a{display: block; float: left; width: 33%; color: #ccc; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-align: center; padding: 40px 0; line-height: 18px; cursor: pointer;}
@@ -122,6 +126,7 @@ hr{border: none;}
 	article blockquote p .lquo{position: absolute; top:0; left: -15px;}	
 	article blockquote p br{display: none;}
 	
+	
 	.projects a{width: 50%;}
 }
 
@@ -134,11 +139,13 @@ hr{border: none;}
 
 
 aside{background-image: url(../images/aside/laff.jpg);}
-aside.wanker{background-image: url(../images/aside/smirk.jpg);}
+aside.wanker{background-image: url(../images/aside/teaching.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
 aside.yeah{background-image: url(../images/aside/yeah.gif);}
-aside.money{background-image: url(../images/willdayble/cash.gif);}
+aside.money{background-image: url(../images/willdayble/woah.gif);}
+aside.smirk{background-image: url(../images/aside/smirk.jpg);}
+aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
 
 
 .footer{height: 300px; position: relative; overflow: hidden; z-index: 200;}
