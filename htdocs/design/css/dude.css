@@ -130,7 +130,7 @@ hr{border: none;}
 	article h2 {font-size: 48px;}
 	article h3,
 	article blockquote p {font-size: 32px; line-height: 48px;}	
-	article blockquote{margin: 0;}
+	article blockquote{margin: 10px 0 0;}
 	article blockquote p{text-align: left;}
 	article blockquote cite{text-align: left; position: relative; font-size: 16px; padding: 10px 0 40px 55px;} 	
 	article blockquote cite img{position: absolute; top:0; left: 0; width: 40px; margin: 0;}
