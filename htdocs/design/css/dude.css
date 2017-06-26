@@ -38,6 +38,9 @@ strong{font-weight: 600;}
 
 .btn-next{float: right; margin-right: -20px; margin-left: 0;}
 
+.btn-home{text-align: center; width: 24px; margin: 0 0 0 -12px; position: absolute; top:50px; left: 50%; padding: 5px 0;}
+.btn-home i{right: 0;}
+
 /* aside */
 aside{width: 33%; background: #333 no-repeat 50% 50%; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
 aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0; }
@@ -47,7 +50,7 @@ aside p a:hover{background: rgba(225,27,27,0.8); text-decoration: none; bottom: 
 aside p a i{font-size: 24px;}
 
 /* the main event */
-article{margin-left: 33%; padding: 50px 10%; border-bottom: 1px solid #eee;}
+article{margin-left: 33%; padding: 50px 10%; border-bottom: 1px solid #eee; position: relative;}
 article.alt{background: #f0f4f5}
 article h2,
 article h3,
@@ -60,7 +63,7 @@ article dl{font-size: 19px; color: #555459; line-height: 24px; max-width: 600px;
 article h2{max-width: 500px;}
 
 
-article nav{/* border:3px solid #e9ebeb; border-left: 0; border-right: 0; */ padding: 1px 20px 0px 30px; margin: 30px 0;}
+article nav{/* border:3px solid #e9ebeb; border-left: 0; border-right: 0; */ padding: 1px 20px 0px 30px; margin: 0 0 0 30px;}
 
 @media (min-width: 1000px){
 	article nav{margin-left: -30px; max-width: 500px;}
@@ -107,6 +110,9 @@ p:after,
 .biopic:hover img{opacity: 0.3;}
 .biopic:hover i{visibility: visible;}
 
+.introface{position: relative; padding: 0 0 0 120px;  margin-top: 50px;}
+.introface img{position: absolute; top:-5px; left: 0; width: 100px; height: 100px; border-radius: 3px;}
+
 
 #contact{padding-bottom: 500px;}
 
@@ -124,6 +130,7 @@ hr{border: none;}
 @media (max-width: 1000px){
 	aside{width: 25%;}
 	article{margin-left: 25%; padding: 30px 8%;}
+	.btn-home{top:30px;}
 	article blockquote {margin: 0 -5%;}
 	article blockquote.left{margin: 0;}
 	
@@ -145,11 +152,10 @@ hr{border: none;}
 	aside{position: relative; bottom: auto; width: auto; height: 350px;}
 	aside p{background: rgba(0,0,0,0.5); left: auto; display: none;}
 	article{width: auto; padding: 10px 40px; margin: 0;}
-
 }
 
-
-aside{background-image: url(../images/aside/laff.jpg);}
+aside{background-image: url(../images/aside/yeah.gif);}
+aside.laff{background-image: url(../images/aside/laff.jpg);}
 aside.wanker{background-image: url(../images/aside/teaching.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
@@ -165,6 +171,6 @@ aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
 
 .footer .btn{display: block; position: absolute; top:50%; left: 50%; margin: -25px 0 0 -75px; z-index: 350; color: #fff;}
 
-@media (min-width: 1000px){
+@media (min-width: 601px){
 	.footer{display: none;}
 }
