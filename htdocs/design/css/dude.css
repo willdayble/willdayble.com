@@ -8,24 +8,19 @@ dark
 light
 555459
 
-pink
-e021c3
-
-red
-e11b1b
 
 */
 
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600);
 
 body{font-family: 'Crimson Text', serif; color: #232125;}
-a{text-decoration: none; color: #e11b1b}
+a{text-decoration: none; color: #009f70}
 a:hover,
 a:focus{text-decoration: underline;}
 
 strong{font-weight: 600;}
 
-.btn{font-size: 21px; color: #e11b1b; position: relative; padding: 5px 20px; display: inline-block; margin-left: -20px;}
+.btn{font-size: 21px; color: #009f70; position: relative; padding: 5px 20px; display: inline-block; margin-left: -20px;}
 .btn i{position: absolute; top:9px; right: -10px;}
 .btn:hover{color: #232125; text-decoration: underline;}
 .btn:hover i{text-decoration: none;}
@@ -55,10 +50,10 @@ article.alt{background: #f0f4f5}
 article h2,
 article h3,
 article h4{font-size: 54px; line-height: 60px; font-weight: normal; margin: 0; padding: 36px 0 0;}
-article h3{font-size: 32px; line-height: 36px;}
-article h4{font-size: 24px; line-height: 36px; max-width:550px;}
+article h3{font-size: 28px; line-height: 32px;}
+article h4{font-size: 24px; line-height: 32px; max-width:550px;}
 article p,
-article dl{font-size: 19px; color: #555459; line-height: 24px; max-width: 600px;}
+article dl{font-size: 21px; color: #555459; line-height: 24px; max-width: 600px;}
 
 article h2{max-width: 500px;}
 
@@ -82,7 +77,7 @@ article dd{padding-left: 40px; border-bottom: 2px solid #eee; margin-left: -1px;
 
 
 article blockquote {margin: 0 -10% 30px;}
-article blockquote p{font-size: 36px; line-height: 48px; font-style: italic; position: relative; text-align: center; max-width: none;}
+article blockquote p{font-size: 32px; line-height: 36px; font-style: italic; position: relative; text-align: center; max-width: none;}
 article blockquote p .lquo{margin-right: 2px;}
 article blockquote cite{display: block;color: #999; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; text-align: center;}
 article blockquote cite a{color: inherit; text-decoration: underline;}
@@ -101,7 +96,7 @@ article blockquote.left cite img{width: 40px; height: 40px; border-radius: 999em
 .projects a img{max-width: 90%;display: block; margin: 0 auto 15px;}
 p:after,
 .projects:after{display: block; clear: both; content: '';}
-.projects a:hover{color: #e11b1b; text-decoration: none;}
+.projects a:hover{color: #009f70; text-decoration: none;}
 
 
 .biopic{display: block; height: 200px; float: left; margin:0 30px 30px 0; border-radius: 5px; background: #232125; position: relative;}
@@ -141,7 +136,7 @@ hr{border: none;}
 	
 	article h2 {font-size: 48px;}
 	article h3,
-	article blockquote p {font-size: 32px; line-height: 48px;}	
+	article blockquote p {font-size: 32px; line-height: 36px;}	
 	article blockquote{margin: 10px 0 0;}
 	article blockquote p{text-align: left;}
 	article blockquote cite{text-align: left; position: relative; font-size: 16px; padding: 10px 0 40px 55px;} 	
@@ -168,7 +163,7 @@ aside.yeah{background-image: url(../images/aside/yeah.gif);}
 aside.money{background-image: url(../images/willdayble/woah.gif);}
 aside.smirk{background-image: url(../images/aside/smirk.jpg);}
 aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
-
+aside.contact{background-image: url(../images/aside/phone.gif);}
 
 .footer{height: 300px; position: relative; overflow: hidden; z-index: 200;}
 .footer img{position: absolute; top:0; left: 0; right: 0; z-index: 250; min-width: 100%;}
