@@ -8,10 +8,16 @@ dark
 light
 555459
 
+links
+009f70
+
 
 */
 
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600);
+
+html {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*, *:before, *:after {-webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 
 body{font-family: 'Crimson Text', serif; color: #232125;}
 a{text-decoration: none; color: #009f70}
@@ -38,14 +44,14 @@ strong{font-weight: 600;}
 
 /* aside */
 aside{width: 33%; background: #333 no-repeat 50% 50%; background-size: cover; position: fixed; top:0; left: 0; bottom: 0;}
-aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0; }
+aside p{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; margin: 0;}
 aside p a{font-size: 14px; display: inline-block; color: #ccc; padding: 13px 20px 15px; background: rgba(0,0,0,0.7); margin: 0 -2px; bottom: -5px; position: relative;}
 aside p a:hover{background: rgba(225,27,27,0.8); text-decoration: none; bottom: 0;	}
 
 aside p a i{font-size: 24px;}
 
 /* the main event */
-article{margin-left: 33%; padding: 50px 10%; border-bottom: 1px solid #eee; position: relative;}
+article{margin-left: 33%; padding: 50px 10%; border-bottom: 1px solid #eee; position: relative; background: #fff;}
 article.alt{background: #f0f4f5}
 article h2,
 article h3,
@@ -58,7 +64,9 @@ article dl{font-size: 21px; color: #555459; line-height: 24px; max-width: 600px;
 article h2{max-width: 500px;}
 
 
-article nav{/* border:3px solid #e9ebeb; border-left: 0; border-right: 0; */ padding: 1px 20px 0px 30px; margin: 0 0 0 30px;}
+article nav{/* border:3px solid #e9ebeb; border-left: 0; border-right: 0; */ padding: 10px 20px 0px 30px; margin: 0 0 0 30px;}
+
+article.fullheight{min-height: 100vh;}
 
 @media (min-width: 1000px){
 	article nav{margin-left: -30px; max-width: 500px;}
@@ -71,9 +79,11 @@ article nav:after{display:block; content: ''; background:#e9ebeb; height: 5px; m
 */
 
 article dt,
-article dd{padding: 9px 0;}
+article dd{padding: 9px 0; position: relative;}
 article dt{float: left; color: #aaa;}
 article dd{padding-left: 40px; border-bottom: 2px solid #eee; margin-left: -1px;}
+
+article dt i{position: absolute; top:13px; left: 0; font-size: 25px;}
 
 
 article blockquote {margin: 0 -10% 30px;}
@@ -99,6 +109,80 @@ p:after,
 .projects a:hover{color: #009f70; text-decoration: none;}
 
 
+.clear{display: block; clear:both;}
+
+/* .topic_trio{ margin: 40px -10%; border:1px solid #ddd; } */
+.topic_trio .topic{width: 31.3%; display: block; text-decoration: none; text-align: center; float: left; padding: 1px 20px; margin: 0 1%; height: 240px; border-radius: 5px; cursor: pointer; background:#fff;}
+.topic_trio .topic p{font-size: 17px; line-height: 20px; color: #929195; height: 60px;}
+.topic_trio .topic i{font-size: 24px; color: #ccc;}
+
+.topic_trio .topic:hover h3,
+.topic_trio .topic:hover p,
+.topic_trio .topic:hover i{color: #fff !important;}
+
+
+/* Purpose */
+.topic_trio .topic.purpose{border-color: #e809db;}
+.topic_trio .topic.purpose h3,
+h3.purpose{color: #e809db;}
+.topic_trio .topic.purpose:hover{background: #e809db;}
+
+.full.purpose h2,
+.full.purpose h3,
+.keydesc.purpose h3{color: #e809db;}
+
+article.purpose .keydesc .panel,
+.keydesc.purpose .panel{background: #eebdeb;}
+article.purpose .keydesc .panel:hover,
+.keydesc.purpose .panel:hover{background: #e809db;}
+
+
+/* digital */
+.topic_trio .topic.digital{border-color: #139ddd;}
+.topic_trio .topic.digital h3,
+h3.digital{color: #139ddd;}
+.topic_trio .topic.digital:hover{background: #139ddd;}
+
+.full.digital h2,
+.full.digital h3,
+.keydesc.digital h3{color: #139ddd;}
+
+article.digital .keydesc .panel,
+.keydesc.digital .panel{background: #bfe0ef;}
+article.digital .keydesc .panel:hover,
+.keydesc.digital .panel:hover{background: #139ddd;}
+
+/* gsd */
+.topic_trio .topic.gsd{border-color: #e4320e;}
+.topic_trio .topic.gsd h3,
+h3.gsd{color: #e4320e;}
+.topic_trio .topic.gsd:hover{background: #e4320e;}
+
+.full.gsd h2,
+.full.gsd h3,
+.keydesc.gsd h3{color: #e4320e;}
+
+article.gsd .keydesc .panel,
+.keydesc.gsd .panel{background: #f0c8c0;}
+article.gsd .keydesc .panel:hover,
+.keydesc.gsd .panel:hover{background: #e4320e;}
+
+/* full buttons are grey coloured */
+.full .btn-back,
+.full .btn-next{color: #555459;}
+
+
+
+/* for topics */
+article dl.detail dt,
+article dl.detail dd{font-size: 18px;}
+article dl.detail dd {font-style: italic;}
+article dl.detail dd strong {font-style: normal;}
+article dd.detail strong{display: inline-block;width: 80px;}
+
+
+
+
 .biopic{display: block; height: 200px; float: left; margin:0 30px 30px 0; border-radius: 5px; background: #232125; position: relative;}
 .biopic img{max-height: 100%; border-radius: 5px;}
 .biopic i{visibility: hidden; font-size: 40px; position: absolute; top:50%; left: 50%; margin: -20px 0 0 -20px; color: #fff;}
@@ -107,6 +191,48 @@ p:after,
 
 .introface{position: relative; padding: 0 0 0 120px;  margin-top: 50px;}
 .introface img{position: absolute; top:-5px; left: 0; width: 100px; height: 100px; border-radius: 3px;}
+
+
+article#home{border-bottom: none; padding-top: 12%}
+/*
+article#home p a{border-bottom: 2px solid #009f70;text-decoration: none;}
+article#home p a:hover{border-bottom: none;}
+*/
+
+/*
+body.nope a{color: #e02d20;}
+a.nope:hover {border-bottom: 2px solid #e02d20; text-decoration: none;}
+*/
+
+
+/*
+This stuff is for the new speaker bit that Jason helped with.
+This gon be one glittery, pretty Trojan horse.
+*/
+
+.header{text-align: center; padding: 30px 0}
+.header h2,
+.header p{margin-left: auto; margin-right: auto;}
+.header h2 img{padding-bottom: 15px; text-align: center; clear: both; display: block; margin: 0 auto;}
+
+
+article.full{margin-left: 0;}
+article.full section{max-width: 900px; margin: 0 auto;}
+article.full h2{max-width: none;}
+
+.keydesc{padding-left: 220px; margin: 50px 0 ; position: relative;}
+.keydesc h3{padding-top: 0;}
+
+.keydesc .panel{position: absolute; top:0; left: 0; width: 190px; text-align: center; height: 100%; background: #a4e4d1; position: absolute; text-decoration: none; display: block;}
+.keydesc .panel i{font-size: 80px; position: absolute; top:40px; left:0; width:100%; text-align: center; color: #fff;}
+.keydesc .panel strong,
+.keydesc .panel em{position: absolute; bottom: 0; left: 0; width: 100%; display: block; font-size: 22px; line-height: 28px; color: #fff; font-weight: 200; padding-bottom: 20px; font-style: normal;}
+
+.keydesc .panel em{display: none;}
+
+.keydesc .panel:hover{background: #009f70;}
+.keydesc .panel:hover strong{display: none;}
+.keydesc .panel:hover em{display: block;}
 
 
 #contact{padding-bottom: 500px;}
@@ -134,6 +260,8 @@ hr{border: none;}
 	article blockquote {margin: 0 -5%;}
 	article blockquote.left{margin: 0;}
 	
+	article nav	{margin-left: 0; padding-left: 0;}
+	
 	article h2 {font-size: 48px;}
 	article h3,
 	article blockquote p {font-size: 32px; line-height: 36px;}	
@@ -144,14 +272,37 @@ hr{border: none;}
 	article blockquote p .lquo{position: absolute; top:0; left: -15px;}	
 	article blockquote p br{display: none;}
 	
-	
 	.projects a{width: 50%;}
+	
+	article.full{padding-left: 10px; padding-right: 10px;}
+	
+	.btn-back,
+	.btn-next{font-size: 17px;}
+	.btn-back{margin-left: 10px;}
+	.btn-next{margin-right: 10px;}
+	
+	.keydesc{padding-left: 140px;}
+	.keydesc .panel{width: 120px;}
+	.keydesc .panel i{font-size: 50px;}
+	.keydesc .panel strong{font-size: 17px;}
+	
 }
 
 @media (max-width: 600px){
 	aside{position: relative; bottom: auto; width: auto; height: 350px;}
 	aside p{background: rgba(0,0,0,0.5); left: auto; display: none;}
-	article{width: auto; padding: 10px 40px; margin: 0;}
+	article{width: auto; padding: 10px 15px 20px; margin: 0;}
+	article.fullheight{min-height: auto;}
+	
+	article#home{padding-top: 30px; padding-bottom: 50px;}	
+	
+	.keydesc{padding-left: 60px;}
+	.keydesc .panel{width: 45px;}
+	.keydesc .panel i{font-size: 30px; top:12px;}
+	.keydesc .panel strong{display: none;}	
+	
+	.topic_trio .topic p{height: auto;}
+	.topic_trio .topic{float: none; width:auto;margin-bottom: 15px; height: auto;}	
 }
 
 
@@ -164,10 +315,11 @@ aside.money{background-image: url(../images/willdayble/woah.gif);}
 aside.smirk{background-image: url(../images/aside/smirk.jpg);}
 aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
 aside.contact{background-image: url(../images/aside/phone.gif);}
+aside.kitty{background-image: url(../images/aside/cat.gif);}
 
 .footer{height: 300px; position: relative; overflow: hidden; z-index: 200;}
 .footer img{position: absolute; top:0; left: 0; right: 0; z-index: 250; min-width: 100%;}
-.footer:after{display: block; content: ''; background: rgba(0,0,0,0.7); position: absolute; top:0; left: 0; right: 0; bottom: 0; z-index: 300;}
+.footer:after{display: block; content: ''; background: rgba(0,0,0,0.1); position: absolute; top:0; left: 0; right: 0; bottom: 0; z-index: 300;}
 
 .footer .btn{display: block; position: absolute; top:50%; left: 50%; margin: -25px 0 0 -75px; z-index: 350; color: #fff;}
 
