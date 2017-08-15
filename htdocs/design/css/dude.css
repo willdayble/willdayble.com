@@ -169,7 +169,8 @@ article.gsd .keydesc .panel:hover,
 
 /* full buttons are grey coloured */
 .full .btn-back,
-.full .btn-next{color: #555459;}
+.full .btn-next,
+.full .btn-home{color: #555459;}
 
 
 
