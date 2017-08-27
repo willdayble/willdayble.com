@@ -59,7 +59,9 @@ article h4{font-size: 54px; line-height: 60px; font-weight: normal; margin: 0; p
 article h3{font-size: 28px; line-height: 32px;}
 article h4{font-size: 24px; line-height: 32px; max-width:550px;}
 article p,
-article dl{font-size: 21px; color: #555459; line-height: 24px; max-width: 600px;}
+article dl,
+article li{font-size: 21px; color: #555459; line-height: 24px; max-width: 600px;}
+article li{padding-bottom: 5px;}
 
 article h2{max-width: 500px;}
 
@@ -317,6 +319,7 @@ aside.smirk{background-image: url(../images/aside/smirk.jpg);}
 aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
 aside.contact{background-image: url(../images/aside/phone.gif);}
 aside.kitty{background-image: url(../images/aside/cat.gif);}
+aside.leo{background-image: url(../images/aside/sadleo.gif);}
 
 .footer{height: 300px; position: relative; overflow: hidden; z-index: 200;}
 .footer img{position: absolute; top:0; left: 0; right: 0; z-index: 250; min-width: 100%;}
