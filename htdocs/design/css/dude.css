@@ -115,9 +115,11 @@ p:after,
 .clear{display: block; clear:both;}
 
 /* .topic_trio{ margin: 40px -10%; border:1px solid #ddd; } */
-.topic_trio .topic{width: 31.3%; display: block; text-decoration: none; text-align: center; float: left; padding: 1px 20px; margin: 0 1%; height: 240px; border-radius: 5px; cursor: pointer; background:#fff;}
+.topic_trio .topic{width: 31.3%; display: block; text-decoration: none; text-align: center; float: left; padding: 1px 20px; margin: 0 1%; height: 320px; border-radius: 5px; cursor: pointer; background:#fff;}
 .topic_trio .topic p{font-size: 17px; line-height: 20px; color: #929195; height: 60px;}
-.topic_trio .topic i{font-size: 24px; color: #ccc;}
+.topic_trio .topic .ss-down{font-size: 24px; color: #ccc; display: block; padding-bottom: 15px}
+
+.topic_trio .topic h3 i{display: block; font-size: 48px; padding: 15px 0;}
 
 .topic_trio .topic:hover h3,
 .topic_trio .topic:hover p,
@@ -260,7 +262,7 @@ hr{border: none;}
 
 	aside{width: 25%;}
 	article{margin-left: 25%; padding: 30px 8%;}
-	.btn-home{top:30px;}
+	.btn-home{top:10px;}
 	article blockquote {margin: 0 -5%;}
 	article blockquote.left{margin: 0;}
 	
@@ -273,7 +275,8 @@ hr{border: none;}
 	article blockquote p{text-align: left;}
 	article blockquote cite{text-align: left; position: relative; font-size: 16px; padding: 10px 0 40px 55px;} 	
 	article blockquote cite img{position: absolute; top:0; left: 0; width: 40px; margin: 0;}
-	article blockquote p .lquo{position: absolute; top:0; left: -15px;}	
+	article blockquote p .lquo{position: absolute; top:0; left: -10px;}	
+	article blockquote.left p .lquo{left: -8px;}
 	article blockquote p br{display: none;}
 	
 	.projects a{width: 50%;}
