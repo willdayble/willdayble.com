@@ -104,9 +104,9 @@ article blockquote.left cite img{width: 40px; height: 40px; border-radius: 999em
 
 
 
-.projects a{display: block; float: left; width: 33%; color: #999; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-align: center; padding: 40px 0; line-height: 18px; cursor: pointer;}
+.projects a{display: block; float: left; width: 33%; color: #999; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-align: center; padding: 15px 0; line-height: 18px; cursor: pointer;}
 .projects a strong{color: #232125;}
-.projects a img{max-width: 90%;display: block; margin: 0 auto 15px;}
+.projects a img{max-width: 80%;display: block; margin: 0 auto 10px;}
 p:after,
 .projects:after{display: block; clear: both; content: '';}
 .projects a:hover{color: #009f70; text-decoration: none;}
