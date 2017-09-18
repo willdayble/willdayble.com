@@ -312,9 +312,8 @@ hr{border: none;}
 	.topic_trio .topic{float: none; width:auto;margin-bottom: 15px; height: auto;}	
 }
 
-
-aside.laff{background-image: url(../images/aside/laff.jpg);}
 aside{background-image: url(../images/aside/teaching.jpg);}
+aside.laff{background-image: url(../images/aside/laff.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
 aside.yeah{background-image: url(../images/aside/yeah.gif);}
