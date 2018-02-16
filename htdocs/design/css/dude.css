@@ -106,6 +106,8 @@ article blockquote.left p{text-align: left; max-width: 600px; font-size: 24px; l
 article blockquote.left cite{font-size: 14px; display: block; position: relative; padding:12px 0 40px 50px; text-align: left; max-width: 550px; margin: 15px  0;}
 article blockquote.left cite img{width: 40px; height: 40px; border-radius: 999em; position: absolute; top:0; left: 0; margin: 0;}
 
+article blockquote.left.tight cite{padding-bottom: 0;}
+
 p:after,
 .projects:after{display: block; clear: both; content: '';}
 
@@ -183,6 +185,8 @@ article.gsd .keydesc .panel:hover,
 .full .btn-next,
 .full .btn-home{color: #555459;}
 
+
+#home p{max-width: 460px;}
 
 
 /* for topics */
@@ -322,6 +326,9 @@ article.humble{margin: 0 auto;}
 	
 	.topic_trio .topic p{height: auto;}
 	.topic_trio .topic{float: none; width:auto;margin-bottom: 15px; height: auto;}	
+	
+	.projects.fa {padding-left: 50px;}
+	.projects.fa .project{width: 40px; top:20px;}
 }
 
 
