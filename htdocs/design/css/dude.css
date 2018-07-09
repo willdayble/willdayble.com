@@ -357,7 +357,7 @@ aside.leo{background-image: url(../images/aside/sadleo.gif);}
 
 
 .supersecure{position: fixed; top:0; left: 0; right:0; bottom: 0; padding: 30vh 20px; z-index: 99999; background: #fff; height: 100%;}
-.supersecure form{text-align: center; width: 400px; margin: 0 auto;}
+.supersecure form{text-align: center; max-width: 400px; margin: 0 auto;}
 .supersecure form input,
 .supersecure form button{border: 1px solid #ddd; background: #fff; display: block; margin: 0 0 10px; font-size: 21px; padding: 5px; width: 100%; border-radius: 4px;}
 .supersecure form button{background: #009f70; border-color: #009f70; color: #fff; display: block;}
