@@ -337,9 +337,10 @@ aside.laff{background-image: url(../images/aside/laff.jpg);}
 aside.wood{background-image: url(../images/aside/stacked_wood.jpg);}
 aside.optimus{background-image: url(../images/aside/transformerbutton.gif);}
 aside.yeah{background-image: url(../images/aside/yeah.gif);}
-aside.money{background-image: url(../images/willdayble/woah.gif);}
+aside.cash{background-image: url(../images/aside/cash.gif);}
+aside.woah{background-image: url(../images/willdayble/woah.gif);}
 aside.smirk{background-image: url(../images/aside/smirk.jpg);}
-aside.inoffensive{background-image: url(../images/backgrounds/clouds.jpg);}
+aside.inoffensive{background-image: url(../images/backgrzounds/clouds.jpg);}
 aside.contact{background-image: url(../images/aside/phone.gif);}
 aside.kitty{background-image: url(../images/aside/cat.gif);}
 aside.leo{background-image: url(../images/aside/sadleo.gif);}
@@ -353,3 +354,10 @@ aside.leo{background-image: url(../images/aside/sadleo.gif);}
 @media (min-width: 601px){
 	.footer{display: none;}
 }
+
+
+.supersecure{position: fixed; top:0; left: 0; right:0; bottom: 0; padding: 30vh 20px; z-index: 99999; background: #fff; height: 100%;}
+.supersecure form{text-align: center; width: 400px; margin: 0 auto;}
+.supersecure form input,
+.supersecure form button{border: 1px solid #ddd; background: #fff; display: block; margin: 0 0 10px; font-size: 21px; padding: 5px; width: 100%; border-radius: 4px;}
+.supersecure form button{background: #009f70; border-color: #009f70; color: #fff; display: block;}
