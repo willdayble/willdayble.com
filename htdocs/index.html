@@ -43,9 +43,8 @@
 <aside class="contact"></aside>
 <article id="home">
 	
-	<h2>🖖</h2>
+	<h2><span id="lols">🔥</span></h2>
 	<p><i class="fal fa-envelope"></i> &nbsp; <a href="mailto:will@willdayble.com">will@willdayble.com</a></p>
-	<p><i class="fab fa-linkedin"></i> &nbsp; <a href="https://www.linkedin.com/in/willdayble/">willdayble</a></p>
 	<p><i class="fab fa-spotify"></i> &nbsp; <a href="https://open.spotify.com/playlist/6HuQ2kfeAXuD9nds3LdFQU?si=eKiRQ53tTa2U2h14bUdtHg">M O O D</a></p>	
 
 </article>
@@ -55,6 +54,49 @@
 </article>
 
 </body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script type="text/javascript">
+	
+
+	// oh mah gerd.
+	$(document).ready(function() {
+
+		/* -------------------------------------- */
+		var lolz = [
+	    '🥰',
+			'🤑',
+			'😬',
+			'💩',
+			'😩',
+			'😳',
+			'🚀',
+			'🔥',
+	    '🌴',
+			'🥳',
+			'☝️',
+			'🤮',
+			'🤓',
+			'😱',
+			'🦾',
+			'🍆',
+			'🍑',
+			'💩',
+			'😭'
+		];
+
+		var rotator = 0;
+		setInterval(function() {
+		    if (rotator == lolz.length) {rotator = 0};
+		    $("#lols").html(lolz[rotator]);
+		    rotator++;
+		}, 2 * 200);
+
+
+	});
+</script>
+
 </html>
 
 <!--

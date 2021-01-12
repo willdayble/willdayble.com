@@ -185,9 +185,9 @@ article.gsd .keydesc .panel:hover,
 .full .btn-next,
 .full .btn-home{color: #555459;}
 
-
+#home{text-align: center;}
 #home p{max-width: 460px;}
-#home h2{font-size: 120px; line-height: 100%; text-indent: -25px;}
+#home h2{font-size: 120px; line-height: 100%; text-indent: -25px; padding-bottom: 15px;}
 
 
 /* for topics */
